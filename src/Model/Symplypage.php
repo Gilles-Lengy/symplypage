@@ -17,6 +17,6 @@ class Symplypage
     // Setters
     public function setPageTitle($pageTitle)
     {
-        $this->$pageTitle = $pageTitle;
+        $this->pageTitle = $pageTitle;
     }
 }
