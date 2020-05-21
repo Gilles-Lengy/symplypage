@@ -15,6 +15,7 @@ class SymplypageController extends AbstractController
 
     public function homepage()
     {
+
         return $this->render('symplypage.html.twig');
     }
 
