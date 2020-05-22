@@ -13,6 +13,7 @@ class Symplypage
     private $pageHeaderImageAlt;
     private $pageSlogan;
     private $pageIntroTitle;
+    private $pageIntro;
 
     /**
      * @return mixed
@@ -126,6 +127,22 @@ class Symplypage
     public function setPageIntroTitle($pageIntroTitle): void
     {
         $this->pageIntroTitle = $pageIntroTitle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPageIntro()
+    {
+        return $this->pageIntro;
+    }
+
+    /**
+     * @param mixed $pageIntro
+     */
+    public function setPageIntro($pageIntro): void
+    {
+        $this->pageIntro = $pageIntro;
     }
 
 
