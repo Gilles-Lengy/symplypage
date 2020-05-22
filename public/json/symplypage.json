@@ -4,5 +4,6 @@
   "pageTitle": "Hello World From Json File",
   "pageHeaderImageURL" : "images/header-image.png",
   "pageHeaderImageAlt" : "The alternative texte to the header image",
-  "pageSlogan" : "A wonderful slogan for ma page"
+  "pageSlogan" : "A wonderful slogan for ma page",
+  "pageIntroTitle" : "The intro title of the page"
 }

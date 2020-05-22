@@ -12,9 +12,19 @@
 
     <header>
         <h1>{{ symplyPage.pageTitle }}</h1>
-        <img src="{{ asset(symplyPage.pageHeaderImageURL) }}" class="img-fluid" alt="{{ symplyPage.pageHeaderImageAlt }} }}">
+        <img src="{{ asset(symplyPage.pageHeaderImageURL) }}" class="img-fluid"
+             alt="{{ symplyPage.pageHeaderImageAlt }} }}">
         <h2>{{ symplyPage.pageSlogan }}</h2>
     </header>
 
+    <section id="intro" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>{{ symplyPage.pageIntroTitle }}</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}
 
