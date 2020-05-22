@@ -6,10 +6,27 @@ namespace App\Model;
 
 class Symplypage
 {
+    private $headTitle;
     private $pageTitle;
     private $pageHeaderImageURL;
     private $pageHeaderImageAlt;
     private $pageSlogan;
+
+    /**
+     * @return mixed
+     */
+    public function getHeadTitle()
+    {
+        return $this->headTitle;
+    }
+
+    /**
+     * @param mixed $headTitle
+     */
+    public function setHeadTitle($headTitle): void
+    {
+        $this->headTitle = $headTitle;
+    }
 
     /**
      * @return mixed
