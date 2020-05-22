@@ -7,6 +7,7 @@ namespace App\Model;
 class Symplypage
 {
     private $headTitle;
+    private $headDescription;
     private $pageTitle;
     private $pageHeaderImageURL;
     private $pageHeaderImageAlt;
@@ -27,6 +28,24 @@ class Symplypage
     {
         $this->headTitle = $headTitle;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getHeadDescription()
+    {
+        return $this->headDescription;
+    }
+
+    /**
+     * @param mixed $headDescription
+     */
+    public function setHeadDescription($headDescription): void
+    {
+        $this->headDescription = $headDescription;
+    }
+
+
 
     /**
      * @return mixed
