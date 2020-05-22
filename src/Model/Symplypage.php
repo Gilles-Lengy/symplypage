@@ -8,6 +8,7 @@ class Symplypage
 {
     private $pageTitle;
     private $pageHeaderImageURL;
+    private $pageSlogan;
 
     /**
      * @return mixed
@@ -39,6 +40,22 @@ class Symplypage
     public function setPageHeaderImageURL($pageHeaderImageURL): void
     {
         $this->pageHeaderImageURL = $pageHeaderImageURL;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPageSlogan()
+    {
+        return $this->pageSlogan;
+    }
+
+    /**
+     * @param mixed $pageSlogan
+     */
+    public function setPageSlogan($pageSlogan): void
+    {
+        $this->pageSlogan = $pageSlogan;
     }
 
 }
