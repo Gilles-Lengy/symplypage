@@ -27,5 +27,20 @@
             </div>
         </div>
     </section>
+
+    <section id="videos" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>{{ symplyPage.sectionVideoTitle }}</h3>
+                    <ul>
+                        {% for videoId in symplyPage.sectionVideoIds %}
+                            <li>{{ videoId }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}
 

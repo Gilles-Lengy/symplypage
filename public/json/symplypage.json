@@ -6,5 +6,7 @@
   "pageHeaderImageAlt" : "The alternative texte to the header image",
   "pageSlogan" : "A wonderful slogan for ma page",
   "pageIntroTitle" : "The intro title of the page",
-  "pageIntro" : "The texte intro of my page. Must be a single sentence for now."
+  "pageIntro" : "The texte intro of my page. Must be a single sentence for now.",
+  "sectionVideoTitle" : "Some videos I like",
+  "sectionVideoIds" : [ "0000", "1111", "2222", "3333", "4444" ]
 }

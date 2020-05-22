@@ -14,6 +14,8 @@ class Symplypage
     private $pageSlogan;
     private $pageIntroTitle;
     private $pageIntro;
+    private $sectionVideoTitle;
+    private $sectionVideoIds;
 
     /**
      * @return mixed
@@ -143,6 +145,38 @@ class Symplypage
     public function setPageIntro($pageIntro): void
     {
         $this->pageIntro = $pageIntro;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionVideoTitle()
+    {
+        return $this->sectionVideoTitle;
+    }
+
+    /**
+     * @param mixed $sectionVideoTitle
+     */
+    public function setSectionVideoTitle($sectionVideoTitle): void
+    {
+        $this->sectionVideoTitle = $sectionVideoTitle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionVideoIds()
+    {
+        return $this->sectionVideoIds;
+    }
+
+    /**
+     * @param mixed $sectionVideoIds
+     */
+    public function setSectionVideoIds($sectionVideoIds): void
+    {
+        $this->sectionVideoIds = $sectionVideoIds;
     }
 
 
