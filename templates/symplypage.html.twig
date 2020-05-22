@@ -22,7 +22,9 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>{{ symplyPage.pageIntroTitle }}</h2>
-                    <p>{{ symplyPage.pageIntro }}</p>
+                    {% for pageIntroParagraph in symplyPage.pageIntro %}
+                    <p>{{ pageIntroParagraph }}</p>
+                    {% endfor %}
                 </div>
             </div>
         </div>
