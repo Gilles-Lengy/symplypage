@@ -4,7 +4,7 @@
 
     <header>
         <h1>{{ symplyPage.pageTitle }}</h1>
-        {#<img src="url-image-header" class="img-fluid" alt="alt">#}
+        <img src="{{ asset(symplyPage.pageHeaderImageURL) }}" class="img-fluid" alt="alt">
     </header>
 
 {% endblock %}

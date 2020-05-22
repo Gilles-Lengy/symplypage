@@ -7,16 +7,38 @@ namespace App\Model;
 class Symplypage
 {
     private $pageTitle;
+    private $pageHeaderImageURL;
 
-    // Getters
+    /**
+     * @return mixed
+     */
     public function getPageTitle()
     {
         return $this->pageTitle;
     }
 
-    // Setters
-    public function setPageTitle($pageTitle)
+    /**
+     * @param mixed $pageTitle
+     */
+    public function setPageTitle($pageTitle): void
     {
         $this->pageTitle = $pageTitle;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getPageHeaderImageURL()
+    {
+        return $this->pageHeaderImageURL;
+    }
+
+    /**
+     * @param mixed $pageHeaderImageURL
+     */
+    public function setPageHeaderImageURL($pageHeaderImageURL): void
+    {
+        $this->pageHeaderImageURL = $pageHeaderImageURL;
+    }
+
 }

@@ -1,3 +1,4 @@
 {
-  "pageTitle": "Hello World From Json File"
+  "pageTitle": "Hello World From Json File",
+  "pageHeaderImageURL" : "images/header-image.png"
 }
