@@ -16,6 +16,8 @@ class Symplypage
     private $pageIntro;
     private $sectionVideoTitle;
     private $sectionVideoIds;
+    private $sectionPhotoTitle;
+    private $sectionPhotoData;
 
     /**
      * @return mixed
@@ -177,6 +179,38 @@ class Symplypage
     public function setSectionVideoIds($sectionVideoIds): void
     {
         $this->sectionVideoIds = $sectionVideoIds;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionPhotoTitle()
+    {
+        return $this->sectionPhotoTitle;
+    }
+
+    /**
+     * @param mixed $sectionPhotoTitle
+     */
+    public function setSectionPhotoTitle($sectionPhotoTitle): void
+    {
+        $this->sectionPhotoTitle = $sectionPhotoTitle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionPhotoData()
+    {
+        return $this->sectionPhotoData;
+    }
+
+    /**
+     * @param mixed $sectionPhotoData
+     */
+    public function setSectionPhotoData($sectionPhotoData): void
+    {
+        $this->sectionPhotoData = $sectionPhotoData;
     }
 
 

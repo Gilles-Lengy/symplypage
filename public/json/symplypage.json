@@ -8,5 +8,7 @@
   "pageIntroTitle" : "The intro title of the page",
   "pageIntro" : "The text intro of my page. Must be a single sentence for now.",
   "sectionVideoTitle" : "Some videos I like",
-  "sectionVideoIds" : [ "407147635", "393634761", "334092219", "311983548" ]
+  "sectionVideoIds" : [ "407147635", "393634761", "334092219", "311983548" ],
+  "sectionPhotoTitle" : "Some photos I like",
+  "sectionPhotoData" : [ [ "images/image-1.png", "Texte image 1" ], [ "images/image-2.png", "Texte image 2" ], [ "images/image-3.png", "Texte image 3" ], [ "images/image-4.png", "Texte image 4" ] ]
 }
