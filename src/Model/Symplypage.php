@@ -8,6 +8,7 @@ class Symplypage
 {
     private $pageTitle;
     private $pageHeaderImageURL;
+    private $pageHeaderImageAlt;
     private $pageSlogan;
 
     /**
@@ -40,6 +41,22 @@ class Symplypage
     public function setPageHeaderImageURL($pageHeaderImageURL): void
     {
         $this->pageHeaderImageURL = $pageHeaderImageURL;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPageHeaderImageAlt()
+    {
+        return $this->pageHeaderImageAlt;
+    }
+
+    /**
+     * @param mixed $pageHeaderImageAlt
+     */
+    public function setPageHeaderImageAlt($pageHeaderImageAlt): void
+    {
+        $this->pageHeaderImageAlt = $pageHeaderImageAlt;
     }
 
     /**
