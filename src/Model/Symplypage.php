@@ -18,6 +18,9 @@ class Symplypage
     private $sectionVideoIds;
     private $sectionPhotoTitle;
     private $sectionPhotoData;
+    private $footerSentence;
+    private $footerUrl;
+    private $footerUrlTile;
 
     /**
      * @return mixed
@@ -211,6 +214,54 @@ class Symplypage
     public function setSectionPhotoData($sectionPhotoData): void
     {
         $this->sectionPhotoData = $sectionPhotoData;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFooterSentence()
+    {
+        return $this->footerSentence;
+    }
+
+    /**
+     * @param mixed $footerSentence
+     */
+    public function setFooterSentence($footerSentence): void
+    {
+        $this->footerSentence = $footerSentence;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFooterUrl()
+    {
+        return $this->footerUrl;
+    }
+
+    /**
+     * @param mixed $footerUrl
+     */
+    public function setFooterUrl($footerUrl): void
+    {
+        $this->footerUrl = $footerUrl;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFooterUrlTile()
+    {
+        return $this->footerUrlTile;
+    }
+
+    /**
+     * @param mixed $footerUrlTile
+     */
+    public function setFooterUrlTile($footerUrlTile): void
+    {
+        $this->footerUrlTile = $footerUrlTile;
     }
 
 
