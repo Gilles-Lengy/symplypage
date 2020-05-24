@@ -13,7 +13,7 @@
   "sectionVideoTitle" : "Some videos I like",
   "sectionVideoData" : [ [ "407147635", "Titre video 1", "Texte video 1 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu." ],[ "393634761", "Titre video 2", "Texte video 2 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu." ],[ "334092219", "Titre video 3", "Texte video 3 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu." ],[ "311983548", "Titre video 3", "Texte image 1" ],[ "407147635", "Titre video 4", "Texte video 4 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu." ] ],
   "sectionPhotoTitle" : "Some photos I like",
-  "sectionPhotoData" : [ [ "images/image-1.png", "Texte image 1" ], [ "images/image-2.png", "Texte image 2" ], [ "images/image-3.png", "Texte image 3" ], [ "images/image-4.png", "Texte image 4" ] ],
+  "sectionPhotoData" : [ [ "images/image-1.png", "Titre image 1", "Texte image 1 Provinciam consulatu ianuario quod provincia sortitus habebit" ], [ "images/image-2.png", "Titre image 2", "Texte image 2 Provinciam consulatu ianuario quod provincia sortitus habebit" ], [ "images/image-3.png", "Titre image 3", "Texte image 3 Provinciam consulatu ianuario quod provincia sortitus habebit" ], [ "images/image-4.png", "Titre image 4", "Texte image 4 Provinciam consulatu ianuario quod provincia sortitus habebit" ] ],
   "footerSentence" : "Proudly made by ",
   "footerUrl" : "https://github.com/Gilles-Lengy",
   "footerUrlTile" : "Gilles Lengy"
