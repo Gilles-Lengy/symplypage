@@ -15,7 +15,7 @@ class Symplypage
     private $pageIntroTitle;
     private $pageIntro;
     private $sectionVideoTitle;
-    private $sectionVideoIds;
+    private $sectionVideoData;
     private $sectionPhotoTitle;
     private $sectionPhotoData;
     private $footerSentence;
@@ -171,17 +171,17 @@ class Symplypage
     /**
      * @return mixed
      */
-    public function getSectionVideoIds()
+    public function getSectionVideoData()
     {
-        return $this->sectionVideoIds;
+        return $this->sectionVideoData;
     }
 
     /**
-     * @param mixed $sectionVideoIds
+     * @param mixed $sectionVideoData
      */
-    public function setSectionVideoIds($sectionVideoIds): void
+    public function setSectionVideoData($sectionVideoData): void
     {
-        $this->sectionVideoIds = $sectionVideoIds;
+        $this->sectionVideoData = $sectionVideoData;
     }
 
     /**
