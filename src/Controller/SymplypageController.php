@@ -33,7 +33,7 @@ class SymplypageController extends AbstractController
         
         $symplyPage = $serializer->deserialize($symplyPageJson, Symplypage::class, 'json');
 
-        dump($symplyPage);
+        //dump($symplyPage);
 
         return $this->render('symplypage.html.twig',['symplyPage' => $symplyPage]);
     }
