@@ -1,16 +1,37 @@
-body{
+body {
     color: #FFF;
     background-color: #000000;
 }
+
+header,
+#intro,
+#video,
+#photo,
+footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+header {
+    margin-top: 0;
+}
+
 header h1,
-header h2{
+header h2 {
     padding: 1rem 2rem;
     background-color: #FF0000;
-    text-align: center;
     text-transform: uppercase;
     margin-bottom: 0;
 }
 
-header h2{
+header h2 {
     background-color: transparent;
+}
+
+#intro h3,
+#video h3,
+#photo h3{
+    text-transform: uppercase;
+    margin-bottom: .75rem;
 }
