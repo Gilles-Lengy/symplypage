@@ -14,6 +14,8 @@ class Symplypage
     private $pageSlogan;
     private $pageIntroTitle;
     private $pageIntro;
+    private $pageIntroSignature;
+    private $pageIntroSignatureURL;
     private $sectionVideoTitle;
     private $sectionVideoData;
     private $sectionPhotoTitle;
@@ -151,6 +153,39 @@ class Symplypage
     {
         $this->pageIntro = $pageIntro;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getPageIntroSignature()
+    {
+        return $this->pageIntroSignature;
+    }
+
+    /**
+     * @param mixed $pageIntroSignature
+     */
+    public function setPageIntroSignature($pageIntroSignature): void
+    {
+        $this->pageIntroSignature = $pageIntroSignature;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPageIntroSignatureURL()
+    {
+        return $this->pageIntroSignatureURL;
+    }
+
+    /**
+     * @param mixed $pageIntroSignatureURL
+     */
+    public function setPageIntroSignatureURL($pageIntroSignatureURL): void
+    {
+        $this->pageIntroSignatureURL = $pageIntroSignatureURL;
+    }
+
 
     /**
      * @return mixed

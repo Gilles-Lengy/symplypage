@@ -25,6 +25,17 @@
                     {% for pageIntroParagraph in symplyPage.pageIntro %}
                         <p>{{ pageIntroParagraph }}</p>
                     {% endfor %}
+                    {% if symplyPage.pageIntroSignature %}
+                    <p id="intro-signature">
+                        {% if symplyPage.pageIntroSignatureURL %}
+                        <a href="{{ symplyPage.pageIntroSignatureURL }}" target="_blank">
+                            {% endif %}
+                        {{ symplyPage.pageIntroSignature }}
+                        {% if symplyPage.pageIntroSignatureURL %}
+                            </a>
+                            {% endif %}
+                    </p>
+                    {% endif %}
                 </div>
             </div>
         </div>

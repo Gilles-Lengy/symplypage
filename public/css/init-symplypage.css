@@ -53,3 +53,7 @@ header h2 {
     text-transform: uppercase;
     margin-bottom: .75rem;
 }
+
+#intro p#intro-signature{
+    font-style: italic;
+}
