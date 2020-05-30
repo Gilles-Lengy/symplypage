@@ -18,6 +18,7 @@ class Symplypage
     private $pageIntroSignatureURL;
     private $sectionVideoTitle;
     private $sectionVideoData;
+    private $sectionVideoPlayerColor;
     private $sectionPhotoTitle;
     private $sectionPhotoData;
     private $sectionOnTheInternetTitle;
@@ -220,6 +221,23 @@ class Symplypage
     {
         $this->sectionVideoData = $sectionVideoData;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionVideoPlayerColor()
+    {
+        return $this->sectionVideoPlayerColor;
+    }
+
+    /**
+     * @param mixed $sectionVideoPlayerColor
+     */
+    public function setSectionVideoPlayerColor($sectionVideoPlayerColor): void
+    {
+        $this->sectionVideoPlayerColor = $sectionVideoPlayerColor;
+    }
+
 
     /**
      * @return mixed
