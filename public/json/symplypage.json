@@ -63,6 +63,30 @@
       "Texte image 4 Provinciam consulatu ianuario quod provincia sortitus habebit"
     ]
   ],
+  "sectionOnTheInternetTitle": "More on the internet",
+  "sectionOnTheInternetData": [
+    [
+      "youtube",
+      "https://youtube.com"
+    ],
+    [
+      "vimeo",
+      "https://vimeo.com"
+    ],
+    [
+      "twitter",
+      "https://twitter.com"
+    ],
+    [
+      "instagram",
+      "Titre image 4",
+      "Texte image 4 Provinciam consulatu ianuario quod provincia sortitus habebit"
+    ],
+    [
+      "facebook",
+      "https://facebook.com"
+    ]
+  ],
   "footerSentence": "Proudly made by ",
   "footerUrl": "https://github.com/Gilles-Lengy",
   "footerUrlTile": "Gilles Lengy"

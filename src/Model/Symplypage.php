@@ -20,6 +20,8 @@ class Symplypage
     private $sectionVideoData;
     private $sectionPhotoTitle;
     private $sectionPhotoData;
+    private $sectionOnTheInternetTitle;
+    private $sectionOnTheInternetData;
     private $footerSentence;
     private $footerUrl;
     private $footerUrlTile;
@@ -250,6 +252,39 @@ class Symplypage
     {
         $this->sectionPhotoData = $sectionPhotoData;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionOnTheInternetTitle()
+    {
+        return $this->sectionOnTheInternetTitle;
+    }
+
+    /**
+     * @param mixed $sectionOnTheInternetTitle
+     */
+    public function setSectionOnTheInternetTitle($sectionOnTheInternetTitle): void
+    {
+        $this->sectionOnTheInternetTitle = $sectionOnTheInternetTitle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionOnTheInternetData()
+    {
+        return $this->sectionOnTheInternetData;
+    }
+
+    /**
+     * @param mixed $sectionOnTheInternetData
+     */
+    public function setSectionOnTheInternetData($sectionOnTheInternetData): void
+    {
+        $this->sectionOnTheInternetData = $sectionOnTheInternetData;
+    }
+
 
     /**
      * @return mixed
