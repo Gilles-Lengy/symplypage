@@ -25,7 +25,7 @@ class Symplypage
     private $sectionOnTheInternetData;
     private $footerSentence;
     private $footerUrl;
-    private $footerUrlTile;
+    private $footerUrlTitle;
 
     /**
      * @return mixed
@@ -339,17 +339,17 @@ class Symplypage
     /**
      * @return mixed
      */
-    public function getFooterUrlTile()
+    public function getfooterUrlTitle()
     {
-        return $this->footerUrlTile;
+        return $this->footerUrlTitle;
     }
 
     /**
-     * @param mixed $footerUrlTile
+     * @param mixed $footerUrlTitle
      */
-    public function setFooterUrlTile($footerUrlTile): void
+    public function setfooterUrlTitle($footerUrlTitle): void
     {
-        $this->footerUrlTile = $footerUrlTile;
+        $this->footerUrlTitle = $footerUrlTitle;
     }
 
 
