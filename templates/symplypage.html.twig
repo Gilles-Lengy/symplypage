@@ -26,15 +26,15 @@
                         <p>{{ pageIntroParagraph }}</p>
                     {% endfor %}
                     {% if symplyPage.pageIntroSignature %}
-                    <p id="intro-signature">
-                        {% if symplyPage.pageIntroSignatureURL %}
-                        <a href="{{ symplyPage.pageIntroSignatureURL }}" target="_blank">
-                            {% endif %}
-                        {{ symplyPage.pageIntroSignature }}
-                        {% if symplyPage.pageIntroSignatureURL %}
+                        <p id="intro-signature">
+                            {% if symplyPage.pageIntroSignatureURL %}
+                            <a href="{{ symplyPage.pageIntroSignatureURL }}" target="_blank">
+                                {% endif %}
+                                {{ symplyPage.pageIntroSignature }}
+                                {% if symplyPage.pageIntroSignatureURL %}
                             </a>
                             {% endif %}
-                    </p>
+                        </p>
                     {% endif %}
                 </div>
             </div>
@@ -42,37 +42,38 @@
     </section>
 
     {% if NULL != symplyPage.sectionVideoTitle %}
-    <section id="video">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+        <section id="video">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
 
-                    <h3>{{ symplyPage.sectionVideoTitle }}</h3>
+                        <h3>{{ symplyPage.sectionVideoTitle }}</h3>
 
-                    {% for videoData in symplyPage.sectionVideoData %}
-                        <div class="card">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item"
-                                        src="https://player.vimeo.com/video/{{ videoData[0] }}?&portrait=0&byline=0&color={{ symplyPage.sectionVideoPlayerColor }}"
-                                        webkitallowfullscreen mozallowfullscreen allowfullscreen>
-                                </iframe>
+                        {% for videoData in symplyPage.sectionVideoData %}
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item"
+                                            src="https://player.vimeo.com/video/{{ videoData[0] }}?&portrait=0&byline=0&color={{ symplyPage.sectionVideoPlayerColor }}"
+                                            webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ videoData[1] }}</h5>
+                                    <p class="card-text">{{ videoData[2] }}</p>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title">{{ videoData[1] }}</h5>
-                                <p class="card-text">{{ videoData[2] }}</p>
-                            </div>
-                        </div>
-                    {% endfor %}
+                        {% endfor %}
 
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     {% endif %}
 
     {% if NULL != symplyPage.sectionPhotoTitle %}
         <section id="photo">
             <div class="container">
+
                 <div class="col-12">
                     <h3>{{ symplyPage.sectionPhotoTitle }}</h3>
 
@@ -86,8 +87,8 @@
                             </div>
                         </div>
                     {% endfor %}
-
                 </div>
+
             </div>
         </section>
     {% endif %}
@@ -95,15 +96,23 @@
     {% if NULL != symplyPage.sectionBandcampAlbumTitle %}
         <section id="bandcamp-album">
             <div class="container">
-                <div class="col-12">
-                    <h3>{{ symplyPage.sectionBandcampAlbumTitle }}</h3>
-
-                    <div id="bandcamp-album-player-container">
-                        <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album={{ symplyPage.sectionBandcampAlbumID }}/size={{ symplyPage.sectionBandcampAlbumSize }}/bgcol={{ symplyPage.sectionBandcampAlbumBGColor }}/linkcol={{ symplyPage.sectionBandcampAlbumLinkCol }}{% if NULL != symplyPage.sectionBandcampAlbumArtwork %}/artwork={{ symplyPage.sectionBandcampAlbumArtwork }}/{% endif %}transparent=true/" style="border: 0; height: {{ symplyPage.sectionBandcampAlbumHeight }}px; width: 100%;">
-                            <a href="{{ symplyPage.sectionBandcampAlbumUrl }}">{{ symplyPage.sectionBandcampAlbumTitleTitle }}</a>
-                        </iframe>
+                <div class="row">
+                    <div class="col-12">
+                        <h3>{{ symplyPage.sectionBandcampAlbumTitle }}</h3>
                     </div>
                 </div>
+                <div class="row justify-content-center">
+                    <div class="col-7">
+                        <div id="bandcamp-album-player-container">
+                            <iframe seamless=""
+                                    src="https://bandcamp.com/EmbeddedPlayer/album={{ symplyPage.sectionBandcampAlbumID }}/size={{ symplyPage.sectionBandcampAlbumSize }}/bgcol={{ symplyPage.sectionBandcampAlbumBGColor }}/linkcol={{ symplyPage.sectionBandcampAlbumLinkCol }}{% if NULL != symplyPage.sectionBandcampAlbumArtwork %}/artwork={{ symplyPage.sectionBandcampAlbumArtwork }}{% endif %}/transparent=true/"
+                                    style="border: 0; height: {{ symplyPage.sectionBandcampAlbumHeight }}px; width: 100%;">
+                                <a href="{{ symplyPage.sectionBandcampAlbumUrl }}">{{ symplyPage.sectionBandcampAlbumTitleTitle }}</a>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
     {% endif %}
@@ -116,7 +125,7 @@
 
                         <h3>{{ symplyPage.sectionOnTheInternetTitle }}</h3>
                         <ul class="list-inline">
-                        {% for onTheInternet in symplyPage.sectionOnTheInternetData %}
+                            {% for onTheInternet in symplyPage.sectionOnTheInternetData %}
 
                                 <li class="list-inline-item">
                                     <a href="{{ onTheInternet[1] }}" target="_blank" class="btn btn-default btn-lg">
@@ -124,8 +133,8 @@
                                     </a>
                                 </li>
 
-                        {% endfor %}
-                            </ul>
+                            {% endfor %}
+                        </ul>
 
                     </div>
                 </div>

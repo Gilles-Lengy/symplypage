@@ -25,11 +25,17 @@ header,
 #intro,
 #video,
 #photo,
+#bandcamp-album,
 #on-internet,
 footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+}
+
+#bandcamp-album #bandcamp-album-player-container{
+    border: 4px solid #FFF;
+    background-color: #333333;
 }
 
 #on-internet .btn-default {
@@ -67,11 +73,12 @@ header h2 {
 #intro h3,
 #video h3,
 #photo h3,
-#on-internet h3{
+#bandcamp-album h3,
+#on-internet h3 {
     text-transform: uppercase;
     margin-bottom: .75rem;
 }
 
-#intro p#intro-signature{
+#intro p#intro-signature {
     font-style: italic;
 }
