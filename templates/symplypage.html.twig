@@ -92,6 +92,22 @@
         </section>
     {% endif %}
 
+    {% if NULL != symplyPage.sectionBandcampAlbumTitle %}
+        <section id="bandcamp-album">
+            <div class="container">
+                <div class="col-12">
+                    <h3>{{ symplyPage.sectionBandcampAlbumTitle }}</h3>
+
+                    <div id="bandcamp-album-player-container">
+                        <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album={{ symplyPage.sectionBandcampAlbumID }}/size={{ symplyPage.sectionBandcampAlbumSize }}/bgcol={{ symplyPage.sectionBandcampAlbumBGColor }}/linkcol={{ symplyPage.sectionBandcampAlbumLinkCol }}{% if NULL != symplyPage.sectionBandcampAlbumArtwork %}/artwork={{ symplyPage.sectionBandcampAlbumArtwork }}/{% endif %}transparent=true/" style="border: 0; height: {{ symplyPage.sectionBandcampAlbumHeight }}px; width: 100%;">
+                            <a href="{{ symplyPage.sectionBandcampAlbumUrl }}">{{ symplyPage.sectionBandcampAlbumTitleTitle }}</a>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endif %}
+
     {% if NULL != symplyPage.sectionOnTheInternetTitle %}
         <section id="on-internet">
             <div class="container">

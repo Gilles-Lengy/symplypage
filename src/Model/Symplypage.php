@@ -21,6 +21,15 @@ class Symplypage
     private $sectionVideoPlayerColor;
     private $sectionPhotoTitle;
     private $sectionPhotoData;
+    private $sectionBandcampAlbumTitle;
+    private $sectionBandcampAlbumUrl;
+    private $sectionBandcampAlbumTitleTitle;
+    private $sectionBandcampAlbumID;
+    private $sectionBandcampAlbumSize;
+    private $sectionBandcampAlbumBGColor;
+    private $sectionBandcampAlbumLinkCol;
+    private $sectionBandcampAlbumArtwork;
+    private $sectionBandcampAlbumHeight;
     private $sectionOnTheInternetTitle;
     private $sectionOnTheInternetData;
     private $footerSentence;
@@ -58,7 +67,6 @@ class Symplypage
     {
         $this->headDescription = $headDescription;
     }
-
 
 
     /**
@@ -271,6 +279,151 @@ class Symplypage
         $this->sectionPhotoData = $sectionPhotoData;
     }
 
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumTitle()
+    {
+        return $this->sectionBandcampAlbumTitle;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumTitle
+     */
+    public function setSectionBandcampAlbumTitle($sectionBandcampAlbumTitle): void
+    {
+        $this->sectionBandcampAlbumTitle = $sectionBandcampAlbumTitle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumUrl()
+    {
+        return $this->sectionBandcampAlbumUrl;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumUrl
+     */
+    public function setSectionBandcampAlbumUrl($sectionBandcampAlbumUrl): void
+    {
+        $this->sectionBandcampAlbumUrl = $sectionBandcampAlbumUrl;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumTitleTitle()
+    {
+        return $this->sectionBandcampAlbumTitleTitle;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumTitleTitle
+     */
+    public function setSectionBandcampAlbumTitleTitle($sectionBandcampAlbumTitleTitle): void
+    {
+        $this->sectionBandcampAlbumTitleTitle = $sectionBandcampAlbumTitleTitle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumID()
+    {
+        return $this->sectionBandcampAlbumID;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumID
+     */
+    public function setSectionBandcampAlbumID($sectionBandcampAlbumID): void
+    {
+        $this->sectionBandcampAlbumID = $sectionBandcampAlbumID;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumSize()
+    {
+        return $this->sectionBandcampAlbumSize;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumSize
+     */
+    public function setSectionBandcampAlbumSize($sectionBandcampAlbumSize): void
+    {
+        $this->sectionBandcampAlbumSize = $sectionBandcampAlbumSize;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumBGColor()
+    {
+        return $this->sectionBandcampAlbumBGColor;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumBGColor
+     */
+    public function setSectionBandcampAlbumBGColor($sectionBandcampAlbumBGColor): void
+    {
+        $this->sectionBandcampAlbumBGColor = $sectionBandcampAlbumBGColor;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumLinkCol()
+    {
+        return $this->sectionBandcampAlbumLinkCol;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumLinkCol
+     */
+    public function setSectionBandcampAlbumLinkCol($sectionBandcampAlbumLinkCol): void
+    {
+        $this->sectionBandcampAlbumLinkCol = $sectionBandcampAlbumLinkCol;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumArtwork()
+    {
+        return $this->sectionBandcampAlbumArtwork;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumArtwork
+     */
+    public function setSectionBandcampAlbumArtwork($sectionBandcampAlbumArtwork): void
+    {
+        $this->sectionBandcampAlbumArtwork = $sectionBandcampAlbumArtwork;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampAlbumHeight()
+    {
+        return $this->sectionBandcampAlbumHeight;
+    }
+
+    /**
+     * @param mixed $sectionBandcampAlbumHeight
+     */
+    public function setSectionBandcampAlbumHeight($sectionBandcampAlbumHeight): void
+    {
+        $this->sectionBandcampAlbumHeight = $sectionBandcampAlbumHeight;
+    }
+
     /**
      * @return mixed
      */
@@ -286,6 +439,7 @@ class Symplypage
     {
         $this->sectionOnTheInternetTitle = $sectionOnTheInternetTitle;
     }
+
 
     /**
      * @return mixed
@@ -351,7 +505,6 @@ class Symplypage
     {
         $this->footerUrlTitle = $footerUrlTitle;
     }
-
 
 
 }
