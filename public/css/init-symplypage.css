@@ -38,16 +38,6 @@ footer {
     background-color: #333333;
 }
 
-#on-internet .btn-default {
-    font-size: 2rem;
-    color: #ffffff;
-    border: 4px solid #ffffff;
-    background-color: transparent;
-    border-radius: 0;
-    text-transform: uppercase;
-    min-width: 80px;
-}
-
 #on-internet .btn-default:hover {
     color: #000000;
     border: 4px solid #ffffff;
@@ -81,4 +71,18 @@ header h2 {
 
 #intro p#intro-signature {
     font-style: italic;
+}
+
+#on-internet .btn-default {
+    font-size: 2rem;
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    background-color: transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    min-width: 80px;
+}
+
+#on-internet li.list-inline-item {
+    margin-bottom: .75rem;
 }
