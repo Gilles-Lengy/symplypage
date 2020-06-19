@@ -16,6 +16,7 @@ class Symplypage
     private $pageIntro;
     private $pageIntroSignature;
     private $pageIntroSignatureURL;
+    private $sectionOrder;
     private $sectionVideoTitle;
     private $sectionVideoData;
     private $sectionVideoPlayerColor;
@@ -197,6 +198,21 @@ class Symplypage
         $this->pageIntroSignatureURL = $pageIntroSignatureURL;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getSectionOrder()
+    {
+        return $this->sectionOrder;
+    }
+
+    /**
+     * @param mixed $sectionOrder
+     */
+    public function setSectionOrder($sectionOrder): void
+    {
+        $this->sectionOrder = $sectionOrder;
+    }
 
     /**
      * @return mixed

@@ -12,6 +12,10 @@
   ],
   "pageIntroSignature": "Gilles Lengy",
   "pageIntroSignatureURL": "https://github.com/Gilles-Lengy",
+  "sectionOrder": [
+    "video",
+    "photo"
+  ],
   "sectionVideoTitle": "Some videos I like",
   "sectionVideoData": [
     [

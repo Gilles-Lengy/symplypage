@@ -41,6 +41,23 @@
         </div>
     </section>
 
+        {% if NULL != symplyPage.sectionOrder %}
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul>
+                        {% for section in symplyPage.sectionOrder %}
+                            <li>{{ section }}</li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+
     {% if NULL != symplyPage.sectionVideoTitle %}
         <section id="video">
             <div class="container">
