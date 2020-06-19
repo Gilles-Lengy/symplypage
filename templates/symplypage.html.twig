@@ -41,123 +41,32 @@
         </div>
     </section>
 
-        {% if NULL != symplyPage.sectionOrder %}
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <ul>
-                        {% for section in symplyPage.sectionOrder %}
-                            <li>{{ section }}</li>
-                        {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        {% endif %}
+    {% if NULL != symplyPage.sectionOrder %}
 
+        {% for section in symplyPage.sectionOrder %}
 
-    {% if NULL != symplyPage.sectionVideoTitle %}
-        <section id="video">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
+            {# switch doesn't works here... Why ???? #}
 
-                        <h3>{{ symplyPage.sectionVideoTitle }}</h3>
+            {% if section == "video" %}
+                {% include 'sections/video.html.twig' %}
+            {% endif %}
 
-                        {% for videoData in symplyPage.sectionVideoData %}
-                            <div class="card">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item"
-                                            src="https://player.vimeo.com/video/{{ videoData[0] }}?&portrait=0&byline=0&color={{ symplyPage.sectionVideoPlayerColor }}"
-                                            webkitallowfullscreen mozallowfullscreen allowfullscreen>
-                                    </iframe>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ videoData[1] }}</h5>
-                                    <p class="card-text">{{ videoData[2] }}</p>
-                                </div>
-                            </div>
-                        {% endfor %}
+            {% if section == "photo" %}
+                {% include 'sections/photo.html.twig' %}
+            {% endif %}
 
-                    </div>
-                </div>
-            </div>
-        </section>
+            {% if section == "bandcampAlbum" %}
+                {% include 'sections/bandcamp-album.html.twig' %}
+            {% endif %}
+
+            {% if section == "onTheInternet" %}
+                {% include 'sections/on-the-internet.html.twig' %}
+            {% endif %}
+
+        {% endfor %}
+
     {% endif %}
 
-    {% if NULL != symplyPage.sectionPhotoTitle %}
-        <section id="photo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3>{{ symplyPage.sectionPhotoTitle }}</h3>
-
-                        {% for PhotoData in symplyPage.sectionPhotoData %}
-                            <div class="card">
-                                <img class="card-img-top" src="{{ PhotoData[0] }}"
-                                     alt="{{ PhotoData[1] }}"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ PhotoData[1] }}</h5>
-                                    <p class="card-text">{{ PhotoData[2] }}</p>
-                                </div>
-                            </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </section>
-    {% endif %}
-
-    {% if NULL != symplyPage.sectionBandcampAlbumTitle %}
-        <section id="bandcamp-album">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3>{{ symplyPage.sectionBandcampAlbumTitle }}</h3>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-7 col-sm-12">
-                        <div id="bandcamp-album-player-container">
-                            <iframe seamless=""
-                                    src="https://bandcamp.com/EmbeddedPlayer/album={{ symplyPage.sectionBandcampAlbumID }}/size={{ symplyPage.sectionBandcampAlbumSize }}/bgcol={{ symplyPage.sectionBandcampAlbumBGColor }}/linkcol={{ symplyPage.sectionBandcampAlbumLinkCol }}{% if NULL != symplyPage.sectionBandcampAlbumArtwork %}/artwork={{ symplyPage.sectionBandcampAlbumArtwork }}{% endif %}/transparent=true/"
-                                    style="border: 0; height: {{ symplyPage.sectionBandcampAlbumHeight }}px; width: 100%;">
-                                <a href="{{ symplyPage.sectionBandcampAlbumUrl }}">{{ symplyPage.sectionBandcampAlbumTitleTitle }}</a>
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-    {% endif %}
-
-    {% if NULL != symplyPage.sectionOnTheInternetTitle %}
-        <section id="on-internet">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-
-                        <h3>{{ symplyPage.sectionOnTheInternetTitle }}</h3>
-                        <ul class="list-inline">
-                            {% for onTheInternet in symplyPage.sectionOnTheInternetData %}
-
-                                <li class="list-inline-item">
-                                    <a href="{{ onTheInternet[1] }}" target="_blank" class="btn btn-default btn-lg">
-                                        <i class="fab fa-{{ onTheInternet[0] }}"></i>
-                                    </a>
-                                </li>
-
-                            {% endfor %}
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-    {% endif %}
 
 {% endblock %}
 

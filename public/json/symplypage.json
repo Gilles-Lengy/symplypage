@@ -13,8 +13,10 @@
   "pageIntroSignature": "Gilles Lengy",
   "pageIntroSignatureURL": "https://github.com/Gilles-Lengy",
   "sectionOrder": [
+    "photo",
     "video",
-    "photo"
+    "bandcampAlbum",
+    "onTheInternet"
   ],
   "sectionVideoTitle": "Some videos I like",
   "sectionVideoData": [
