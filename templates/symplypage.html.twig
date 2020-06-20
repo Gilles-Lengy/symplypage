@@ -6,6 +6,12 @@
 
     <meta name="description" content="{{ symplyPage.headDescription }}">
 
+    <meta property="og:url" content="{{ app.request.uri }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ symplyPage.headTitle }}"/>
+    <meta property="og:description" content="{{ symplyPage.headDescription }}"/>
+    <meta property="og:image" content="{{ app.request.uri }}/{{ symplyPage.pageHeaderImageURL }}"/>
+
 {% endblock %}
 
 {% block body %}
@@ -67,6 +73,11 @@
 
     {% endif %}
 
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ app.request.uri }}" target="_blank"
+       onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false">
+        <button type="button" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-2"></i> Share on Facebook
+        </button>
+    </a>
 
 {% endblock %}
 
