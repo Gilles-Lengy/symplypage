@@ -34,6 +34,7 @@ class Symplypage
     private $sectionOnTheInternetTitle;
     private $sectionOnTheInternetData;
     private $sectionShareTitle;
+    private $textShareLinkFacebook;
     private $footerSentence;
     private $footerUrl;
     private $footerUrlTitle;
@@ -490,6 +491,21 @@ class Symplypage
         $this->sectionShareTitle = $sectionShareTitle;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getTextShareLinkFacebook()
+    {
+        return $this->textShareLinkFacebook;
+    }
+
+    /**
+     * @param mixed $textShareLinkFacebook
+     */
+    public function setTextShareLinkFacebook($textShareLinkFacebook): void
+    {
+        $this->textShareLinkFacebook = $textShareLinkFacebook;
+    }
 
 
     /**
