@@ -33,6 +33,7 @@ class Symplypage
     private $sectionBandcampAlbumHeight;
     private $sectionOnTheInternetTitle;
     private $sectionOnTheInternetData;
+    private $sectionShareTitle;
     private $footerSentence;
     private $footerUrl;
     private $footerUrlTitle;
@@ -472,6 +473,23 @@ class Symplypage
     {
         $this->sectionOnTheInternetData = $sectionOnTheInternetData;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionShareTitle()
+    {
+        return $this->sectionShareTitle;
+    }
+
+    /**
+     * @param mixed $sectionShareTitle
+     */
+    public function setSectionShareTitle($sectionShareTitle): void
+    {
+        $this->sectionShareTitle = $sectionShareTitle;
+    }
+
 
 
     /**
