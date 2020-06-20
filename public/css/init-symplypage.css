@@ -39,12 +39,6 @@ footer {
     background-color: #333333;
 }
 
-#on-internet .btn-default:hover {
-    color: #000000;
-    border: 4px solid #ffffff;
-    background-color: #ffffff;
-}
-
 header {
     margin-top: 0;
 }
@@ -83,6 +77,12 @@ header h2 {
     border-radius: 0;
     text-transform: uppercase;
     min-width: 80px;
+}
+
+#on-internet .btn-default:hover {
+    color: #000000;
+    border: 4px solid #ffffff;
+    background-color: #ffffff;
 }
 
 #on-internet li.list-inline-item {
