@@ -1,26 +1,24 @@
-<section id="video">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
+<section id="video" class="container">
+    <div class="row">
+        <div class="col-12">
 
-                <h3>{{ symplyPage.sectionVideoTitle }}</h3>
+            <h3>{{ symplyPage.sectionVideoTitle }}</h3>
 
-                {% for videoData in symplyPage.sectionVideoData %}
-                    <div class="card">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item"
-                                    src="https://player.vimeo.com/video/{{ videoData[0] }}?&portrait=0&byline=0&color={{ symplyPage.sectionVideoPlayerColor }}"
-                                    webkitallowfullscreen mozallowfullscreen allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">{{ videoData[1] }}</h5>
-                            <p class="card-text">{{ videoData[2] }}</p>
-                        </div>
+            {% for videoData in symplyPage.sectionVideoData %}
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                                src="https://player.vimeo.com/video/{{ videoData[0] }}?&portrait=0&byline=0&color={{ symplyPage.sectionVideoPlayerColor }}"
+                                webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                        </iframe>
                     </div>
-                {% endfor %}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ videoData[1] }}</h5>
+                        <p class="card-text">{{ videoData[2] }}</p>
+                    </div>
+                </div>
+            {% endfor %}
 
-            </div>
         </div>
     </div>
 </section>

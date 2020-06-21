@@ -1,22 +1,20 @@
-<section id="on-internet">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
+<section id="on-internet" class="container">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
 
-                <h3>{{ symplyPage.sectionOnTheInternetTitle }}</h3>
-                <ul class="list-inline">
-                    {% for onTheInternet in symplyPage.sectionOnTheInternetData %}
+            <h3>{{ symplyPage.sectionOnTheInternetTitle }}</h3>
+            <ul class="list-inline">
+                {% for onTheInternet in symplyPage.sectionOnTheInternetData %}
 
-                        <li class="list-inline-item">
-                            <a href="{{ onTheInternet[1] }}" target="_blank" class="btn btn-default btn-lg">
-                                <i class="fab fa-{{ onTheInternet[0] }}"></i>
-                            </a>
-                        </li>
+                    <li class="list-inline-item">
+                        <a href="{{ onTheInternet[1] }}" target="_blank" class="btn btn-default btn-lg">
+                            <i class="fab fa-{{ onTheInternet[0] }}"></i>
+                        </a>
+                    </li>
 
-                    {% endfor %}
-                </ul>
+                {% endfor %}
+            </ul>
 
-            </div>
         </div>
     </div>
 </section>

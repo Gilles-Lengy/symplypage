@@ -1,23 +1,21 @@
-<section id="intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-12 mx-auto">
-                <h2>{{ symplyPage.pageIntroTitle }}</h2>
-                {% for pageIntroParagraph in symplyPage.pageIntro %}
-                    <p>{{ pageIntroParagraph }}</p>
-                {% endfor %}
-                {% if symplyPage.pageIntroSignature %}
-                    <p id="intro-signature">
-                        {% if symplyPage.pageIntroSignatureURL %}
-                        <a href="{{ symplyPage.pageIntroSignatureURL }}" target="_blank">
-                            {% endif %}
-                            {{ symplyPage.pageIntroSignature }}
-                            {% if symplyPage.pageIntroSignatureURL %}
-                        </a>
+<section id="intro" class="container">
+    <div class="row">
+        <div class="col-md-8 col-12 mx-auto">
+            <h2>{{ symplyPage.pageIntroTitle }}</h2>
+            {% for pageIntroParagraph in symplyPage.pageIntro %}
+                <p>{{ pageIntroParagraph }}</p>
+            {% endfor %}
+            {% if symplyPage.pageIntroSignature %}
+                <p id="intro-signature">
+                    {% if symplyPage.pageIntroSignatureURL %}
+                    <a href="{{ symplyPage.pageIntroSignatureURL }}" target="_blank">
                         {% endif %}
-                    </p>
-                {% endif %}
-            </div>
+                        {{ symplyPage.pageIntroSignature }}
+                        {% if symplyPage.pageIntroSignatureURL %}
+                    </a>
+                    {% endif %}
+                </p>
+            {% endif %}
         </div>
     </div>
 </section>
