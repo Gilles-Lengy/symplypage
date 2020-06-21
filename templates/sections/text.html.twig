@@ -1,0 +1,21 @@
+<section id="text" class="container">
+    <div class="row">
+        <div class="col-lg-8 col-sm-12 mx-auto">
+            <h2>{{ symplyPage.sectionTextTitle }}</h2>
+            {% for sectionTextParagraph in symplyPage.sectionText %}
+                <p>{{ sectionTextParagraph }}</p>
+            {% endfor %}
+            {% if symplyPage.sectionTextSignature %}
+                <p id="intro-signature">
+                    {% if symplyPage.sectionTextSignatureURL %}
+                    <a href="{{ symplyPage.sectionTextSignatureURL }}" target="_blank">
+                        {% endif %}
+                        {{ symplyPage.sectionTextSignature }}
+                        {% if symplyPage.sectionTextSignatureURL %}
+                    </a>
+                    {% endif %}
+                </p>
+            {% endif %}
+        </div>
+    </div>
+</section>

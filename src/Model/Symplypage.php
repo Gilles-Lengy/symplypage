@@ -12,10 +12,10 @@ class Symplypage
     private $pageHeaderImageURL;
     private $pageHeaderImageAlt;
     private $pageSlogan;
-    private $pageIntroTitle;
-    private $pageIntro;
-    private $pageIntroSignature;
-    private $pageIntroSignatureURL;
+    private $sectionTextTitle;
+    private $sectionText;
+    private $sectionTextSignature;
+    private $sectionTextSignatureURL;
     private $sectionOrder;
     private $sectionVideoTitle;
     private $sectionVideoData;
@@ -141,65 +141,65 @@ class Symplypage
     /**
      * @return mixed
      */
-    public function getPageIntroTitle()
+    public function getsectionTextTitle()
     {
-        return $this->pageIntroTitle;
+        return $this->sectionTextTitle;
     }
 
     /**
-     * @param mixed $pageIntroTitle
+     * @param mixed $sectionTextTitle
      */
-    public function setPageIntroTitle($pageIntroTitle): void
+    public function setsectionTextTitle($sectionTextTitle): void
     {
-        $this->pageIntroTitle = $pageIntroTitle;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getPageIntro()
-    {
-        return $this->pageIntro;
-    }
-
-    /**
-     * @param mixed $pageIntro
-     */
-    public function setPageIntro($pageIntro): void
-    {
-        $this->pageIntro = $pageIntro;
+        $this->sectionTextTitle = $sectionTextTitle;
     }
 
     /**
      * @return mixed
      */
-    public function getPageIntroSignature()
+    public function getsectionText()
     {
-        return $this->pageIntroSignature;
+        return $this->sectionText;
     }
 
     /**
-     * @param mixed $pageIntroSignature
+     * @param mixed $sectionText
      */
-    public function setPageIntroSignature($pageIntroSignature): void
+    public function setsectionText($sectionText): void
     {
-        $this->pageIntroSignature = $pageIntroSignature;
+        $this->sectionText = $sectionText;
     }
 
     /**
      * @return mixed
      */
-    public function getPageIntroSignatureURL()
+    public function getsectionTextSignature()
     {
-        return $this->pageIntroSignatureURL;
+        return $this->sectionTextSignature;
     }
 
     /**
-     * @param mixed $pageIntroSignatureURL
+     * @param mixed $sectionTextSignature
      */
-    public function setPageIntroSignatureURL($pageIntroSignatureURL): void
+    public function setsectionTextSignature($sectionTextSignature): void
     {
-        $this->pageIntroSignatureURL = $pageIntroSignatureURL;
+        $this->sectionTextSignature = $sectionTextSignature;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getsectionTextSignatureURL()
+    {
+        return $this->sectionTextSignatureURL;
+    }
+
+    /**
+     * @param mixed $sectionTextSignatureURL
+     */
+    public function setsectionTextSignatureURL($sectionTextSignatureURL): void
+    {
+        $this->sectionTextSignatureURL = $sectionTextSignatureURL;
     }
 
     /**
