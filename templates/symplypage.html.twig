@@ -74,10 +74,6 @@
         </div>
     </section>
 
-{% endblock %}
+    {% include 'mandatory/footer.html.twig' %}
 
-{% block footer %}
-    {{ symplyPage.footerSentence }} <a href="{{ symplyPage.footerUrl }}"
-                                       target="_blank">{{ symplyPage.footerUrlTitle }}</a>
 {% endblock %}
-
