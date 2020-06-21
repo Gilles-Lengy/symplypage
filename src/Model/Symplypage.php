@@ -35,6 +35,8 @@ class Symplypage
     private $sectionOnTheInternetData;
     private $sectionShareTitle;
     private $textShareLinkFacebook;
+    private $textShareLinkTwitter;
+    private $viaShareLinkTwitter;
     private $footerSentence;
     private $footerUrl;
     private $footerUrlTitle;
@@ -506,6 +508,39 @@ class Symplypage
     {
         $this->textShareLinkFacebook = $textShareLinkFacebook;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getTextShareLinkTwitter()
+    {
+        return $this->textShareLinkTwitter;
+    }
+
+    /**
+     * @param mixed $textShareLinkTwitter
+     */
+    public function setTextShareLinkTwitter($textShareLinkTwitter): void
+    {
+        $this->textShareLinkTwitter = $textShareLinkTwitter;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getViaShareLinkTwitter()
+    {
+        return $this->viaShareLinkTwitter;
+    }
+
+    /**
+     * @param mixed $viaShareLinkTwitter
+     */
+    public function setViaShareLinkTwitter($viaShareLinkTwitter): void
+    {
+        $this->viaShareLinkTwitter = $viaShareLinkTwitter;
+    }
+
 
 
     /**
