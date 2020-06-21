@@ -29,35 +29,17 @@
         <h2>{{ symplyPage.pageSlogan }}</h2>
     </header>
 
-    <section id="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-12 mx-auto">
-                    <h2>{{ symplyPage.pageIntroTitle }}</h2>
-                    {% for pageIntroParagraph in symplyPage.pageIntro %}
-                        <p>{{ pageIntroParagraph }}</p>
-                    {% endfor %}
-                    {% if symplyPage.pageIntroSignature %}
-                        <p id="intro-signature">
-                            {% if symplyPage.pageIntroSignatureURL %}
-                            <a href="{{ symplyPage.pageIntroSignatureURL }}" target="_blank">
-                                {% endif %}
-                                {{ symplyPage.pageIntroSignature }}
-                                {% if symplyPage.pageIntroSignatureURL %}
-                            </a>
-                            {% endif %}
-                        </p>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     {% if NULL != symplyPage.sectionOrder %}
 
         {% for section in symplyPage.sectionOrder %}
 
             {# switch doesn't works here... Why ???? #}
+
+            {% if section == "intro" %}
+                {% include 'sections/intro.html.twig' %}
+            {% endif %}
 
             {% if section == "video" %}
                 {% include 'sections/video.html.twig' %}
