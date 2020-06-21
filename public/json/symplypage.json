@@ -17,7 +17,8 @@
     "photo",
     "video",
     "bandcampAlbum",
-    "onTheInternet"
+    "onTheInternet",
+    "share"
   ],
   "sectionVideoTitle": "Some videos I like",
   "sectionVideoData": [
