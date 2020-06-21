@@ -13,7 +13,7 @@ class Symplypage
     private $pageHeaderImageAlt;
     private $pageSlogan;
     private $sectionTextTitle;
-    private $sectionText;
+    private $sectionTextP;
     private $sectionTextSignature;
     private $sectionTextSignatureURL;
     private $sectionOrder;
@@ -157,17 +157,17 @@ class Symplypage
     /**
      * @return mixed
      */
-    public function getsectionText()
+    public function getsectionTextP()
     {
-        return $this->sectionText;
+        return $this->sectionTextP;
     }
 
     /**
-     * @param mixed $sectionText
+     * @param mixed $sectionTextP
      */
-    public function setsectionText($sectionText): void
+    public function setsectionTextP($sectionTextP): void
     {
-        $this->sectionText = $sectionText;
+        $this->sectionTextP = $sectionTextP;
     }
 
     /**
