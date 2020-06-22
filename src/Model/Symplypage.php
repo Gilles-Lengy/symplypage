@@ -40,6 +40,9 @@ class Symplypage
     private $footerSentence;
     private $footerUrl;
     private $footerUrlTitle;
+    private $cookieAlertText;
+    private $cookieAlertLearnMore;
+    private $cookieAlertAgree;
 
     /**
      * @return mixed
@@ -590,6 +593,56 @@ class Symplypage
     {
         $this->footerUrlTitle = $footerUrlTitle;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getCookieAlertText()
+    {
+        return $this->cookieAlertText;
+    }
+
+    /**
+     * @param mixed $cookieAlertText
+     */
+    public function setCookieAlertText($cookieAlertText): void
+    {
+        $this->cookieAlertText = $cookieAlertText;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCookieAlertLearnMore()
+    {
+        return $this->cookieAlertLearnMore;
+    }
+
+    /**
+     * @param mixed $cookieAlertLearnMore
+     */
+    public function setCookieAlertLearnMore($cookieAlertLearnMore): void
+    {
+        $this->cookieAlertLearnMore = $cookieAlertLearnMore;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCookieAlertAgree()
+    {
+        return $this->cookieAlertAgree;
+    }
+
+    /**
+     * @param mixed $cookieAlertAgree
+     */
+    public function setCookieAlertAgree($cookieAlertAgree): void
+    {
+        $this->cookieAlertAgree = $cookieAlertAgree;
+    }
+
+
 
 
 }

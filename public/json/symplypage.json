@@ -109,5 +109,8 @@
   "viaShareLinkTwitter" : "gilleslengy",
   "footerSentence": "Proudly made by ",
   "footerUrl": "https://github.com/Gilles-Lengy",
-  "footerUrlTitle": "Gilles Lengy"
+  "footerUrlTitle": "Gilles Lengy",
+  "cookieAlertText" : "Cookies are used on this website to ensure you get the best experience.",
+  "cookieAlertLearnMore" : "Learn more.",
+  "cookieAlertAgree" : "I agree"
 }
