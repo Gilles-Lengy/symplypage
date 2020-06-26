@@ -13,12 +13,12 @@
   "sectionTextSignature": "Gilles Lengy",
   "sectionTextSignatureURL": "https://github.com/Gilles-Lengy",
   "sectionOrder": [
-    "text",
-    "photo",
-    "video",
-    "bandcampAlbum",
-    "onTheInternet",
-    "share"
+    ["text","sectionTextTitle"],
+    ["photo","sectionPhotoTitle"],
+    ["video","sectionVideoTitle"],
+    ["bandcamp-album","sectionBandcampAlbumTitle"],
+    ["on-the-internet","sectionOnTheInternetTitle"],
+    ["share","sectionShareTitle"]
   ],
   "sectionVideoTitle": "Some videos I like",
   "sectionVideoData": [

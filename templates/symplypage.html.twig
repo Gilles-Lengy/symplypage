@@ -87,27 +87,27 @@
 
             {# switch doesn't works here... Why ???? #}
 
-            {% if section == "text" %}
+            {% if section[0] == "text" %}
                 {% include 'sections/text.html.twig' %}
             {% endif %}
 
-            {% if section == "video" %}
+            {% if section[0] == "video" %}
                 {% include 'sections/video.html.twig' %}
             {% endif %}
 
-            {% if section == "photo" %}
+            {% if section[0] == "photo" %}
                 {% include 'sections/photo.html.twig' %}
             {% endif %}
 
-            {% if section == "bandcampAlbum" %}
+            {% if section[0] == "bandcamp-album" %}
                 {% include 'sections/bandcamp-album.html.twig' %}
             {% endif %}
 
-            {% if section == "onTheInternet" %}
+            {% if section[0] == "on-the-internet" %}
                 {% include 'sections/on-the-internet.html.twig' %}
             {% endif %}
 
-            {% if section == "share" %}
+            {% if section[0] == "share" %}
                 {% include 'sections/share.html.twig' %}
             {% endif %}
 
