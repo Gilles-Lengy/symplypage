@@ -114,3 +114,12 @@ header h2 {
     display: inline-block;
     margin-top: .75rem;
 }
+
+.modal{
+    color: black;
+}
+nav.navbar{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
