@@ -10,16 +10,20 @@
             </div>
             <div class="modal-body">
                 <ul>
-                {% if NULL != symplyPage.sectionOrder %}
+                    {% if NULL != symplyPage.sectionOrder %}
 
-                    {% for section in symplyPage.sectionOrder %}
+                        {% for section in symplyPage.sectionOrder %}
 
 
-                        <li><a href="#{{ section[0] }}" onclick="$('#modalMenu').modal('hide')">{{ attribute(symplyPage, section[1]) }}</a></li>
+                            <li><a href="#{{ section[0] }}"
+                                   onclick="$('#modalMenu').modal('hide')">{{ attribute(symplyPage, section[1]) }}</a>
+                            </li>
 
-                    {% endfor %}
+                        {% endfor %}
 
-                {% endif %}
+                    {% endif %}
+                    <li><a href="#header" onclick="$('#modalMenu').modal('hide')">{{ symplyPage.textLinkGoTop }}</a>
+                    </li>
                 </ul>
             </div>
             <div class="modal-footer">
@@ -31,7 +35,8 @@
 
 <!-- Button trigger modal menu -->
 <nav class="navbar navbar-dark">
-    <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#modalMenu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#modalMenu"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 </nav>

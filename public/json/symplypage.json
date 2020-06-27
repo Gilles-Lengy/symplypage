@@ -12,6 +12,7 @@
   ],
   "sectionTextSignature": "Gilles Lengy",
   "sectionTextSignatureURL": "https://github.com/Gilles-Lengy",
+  "textLinkGoTop": "Go To the Top of this page",
   "sectionOrder": [
     ["text","sectionTextTitle"],
     ["photo","sectionPhotoTitle"],

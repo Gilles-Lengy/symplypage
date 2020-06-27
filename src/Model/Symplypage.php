@@ -16,6 +16,7 @@ class Symplypage
     private $sectionTextP;
     private $sectionTextSignature;
     private $sectionTextSignatureURL;
+    private $textLinkGoTop;
     private $sectionOrder;
     private $sectionVideoTitle;
     private $sectionVideoData;
@@ -204,6 +205,23 @@ class Symplypage
     {
         $this->sectionTextSignatureURL = $sectionTextSignatureURL;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getTextLinkGoTop()
+    {
+        return $this->textLinkGoTop;
+    }
+
+    /**
+     * @param mixed $textLinkGoTop
+     */
+    public function setTextLinkGoTop($textLinkGoTop): void
+    {
+        $this->textLinkGoTop = $textLinkGoTop;
+    }
+
 
     /**
      * @return mixed
@@ -545,7 +563,6 @@ class Symplypage
     }
 
 
-
     /**
      * @return mixed
      */
@@ -641,8 +658,6 @@ class Symplypage
     {
         $this->cookieAlertAgree = $cookieAlertAgree;
     }
-
-
 
 
 }
