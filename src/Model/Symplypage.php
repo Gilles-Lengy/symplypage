@@ -16,6 +16,7 @@ class Symplypage
     private $sectionTextP;
     private $sectionTextSignature;
     private $sectionTextSignatureURL;
+    private $modalMenuTitle;
     private $textLinkGoTop;
     private $sectionOrder;
     private $sectionVideoTitle;
@@ -205,6 +206,23 @@ class Symplypage
     {
         $this->sectionTextSignatureURL = $sectionTextSignatureURL;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getModalMenuTitle()
+    {
+        return $this->modalMenuTitle;
+    }
+
+    /**
+     * @param mixed $modalMenuTitle
+     */
+    public function setModalMenuTitle($modalMenuTitle): void
+    {
+        $this->modalMenuTitle = $modalMenuTitle;
+    }
+
 
     /**
      * @return mixed
