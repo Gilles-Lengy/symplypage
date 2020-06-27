@@ -18,11 +18,12 @@ use Symfony\Contracts\Cache\ItemInterface;
 class SymplypageController extends AbstractController
 {
     /**
-     * @Route("/")
+     * @Route("/{emptySymplyPage}")
      */
 
-    public function homepage(CacheInterface $cache)
+    public function homepage(int $emptySymplyPage=0, CacheInterface $cache)
     {
+
         $package = new Package( new EmptyVersionStrategy());
 
         $urlSymplyPageJson = $package->getUrl('json/symplypage.json');
@@ -32,7 +33,10 @@ class SymplypageController extends AbstractController
         $encoder = new JsonEncoder();
 
         $serializer = new Serializer([$normalizer], [$encoder]);
-        //$cache->delete('symplyPage');
+        if($emptySymplyPage ===1 ) {
+            $cache->delete('symplyPage');
+        }
+
         $symplyPage = $cache->get('symplyPage', function (ItemInterface $item) use ($serializer,$symplyPageJson){
             $item->expiresAfter(60*60*24);//24 hours
             return $serializer->deserialize($symplyPageJson, Symplypage::class, 'json');
