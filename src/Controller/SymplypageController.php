@@ -12,6 +12,8 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
+use Symfony\Contracts\Cache\CacheInterface;
+use Symfony\Contracts\Cache\ItemInterface;
 
 class SymplypageController extends AbstractController
 {
@@ -19,7 +21,7 @@ class SymplypageController extends AbstractController
      * @Route("/")
      */
 
-    public function homepage()
+    public function homepage(CacheInterface $cache)
     {
         $package = new Package( new EmptyVersionStrategy());
 
@@ -30,10 +32,12 @@ class SymplypageController extends AbstractController
         $encoder = new JsonEncoder();
 
         $serializer = new Serializer([$normalizer], [$encoder]);
-        
-        $symplyPage = $serializer->deserialize($symplyPageJson, Symplypage::class, 'json');
+        //$cache->delete('symplyPage');
+        $symplyPage = $cache->get('symplyPage', function (ItemInterface $item) use ($serializer,$symplyPageJson){
+            $item->expiresAfter(60*60*24);//24 hours
+            return $serializer->deserialize($symplyPageJson, Symplypage::class, 'json');
+        });
 
-        //dump($symplyPage);
 
         return $this->render('symplypage.html.twig',['symplyPage' => $symplyPage]);
     }
