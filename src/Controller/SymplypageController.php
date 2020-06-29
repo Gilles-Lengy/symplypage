@@ -33,7 +33,8 @@ class SymplypageController extends AbstractController
         $encoder = new JsonEncoder();
 
         $serializer = new Serializer([$normalizer], [$encoder]);
-        if($emptySymplyPage ===1 ) {
+
+        if($this->getParameter('kernel.debug') || $emptySymplyPage ===1 ) {
             $cache->delete('symplyPage');
         }
 
