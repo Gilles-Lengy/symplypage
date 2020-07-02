@@ -29,6 +29,7 @@ header,
 #text,
 #video,
 #photo,
+#card,
 #bandcamp-album,
 #on-the-internet,
 #share,
@@ -62,6 +63,7 @@ header h2 {
 #text h3,
 #video h3,
 #photo h3,
+#card h3,
 #bandcamp-album h3,
 #on-the-internet h3,
 #share h3{
@@ -71,6 +73,18 @@ header h2 {
 
 #text p#text-signature {
     font-style: italic;
+}
+
+#card .card .card-body h4.card-title a{
+    display: inline-block;
+    background-color: #FF8C00;
+    padding: 1rem;
+    width: 100%;
+    text-decoration: none;
+}
+
+#card .card card-body h4.card-title a:hover{
+    background-color: #FF8A00;
 }
 
 #on-the-internet .btn-default {
