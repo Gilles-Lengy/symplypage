@@ -24,6 +24,8 @@ class Symplypage
     private $sectionVideoPlayerColor;
     private $sectionPhotoTitle;
     private $sectionPhotoData;
+    private $sectionCardTitle;
+    private $sectionCardData;
     private $sectionBandcampAlbumTitle;
     private $sectionBandcampAlbumUrl;
     private $sectionBandcampAlbumTitleTitle;
@@ -337,6 +339,40 @@ class Symplypage
     {
         $this->sectionPhotoData = $sectionPhotoData;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionCardTitle()
+    {
+        return $this->sectionCardTitle;
+    }
+
+    /**
+     * @param mixed $sectionCardTitle
+     */
+    public function setSectionCardTitle($sectionCardTitle): void
+    {
+        $this->sectionCardTitle = $sectionCardTitle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionCardData()
+    {
+        return $this->sectionCardData;
+    }
+
+    /**
+     * @param mixed $sectionCardData
+     */
+    public function setSectionCardData($sectionCardData): void
+    {
+        $this->sectionCardData = $sectionCardData;
+    }
+
+
 
 
     /**
