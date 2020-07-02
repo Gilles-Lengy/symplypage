@@ -18,6 +18,7 @@
     ["text","sectionTextTitle"],
     ["photo","sectionPhotoTitle"],
     ["video","sectionVideoTitle"],
+    ["card","sectionCardTitle"],
     ["bandcamp-album","sectionBandcampAlbumTitle"],
     ["on-the-internet","sectionOnTheInternetTitle"],
     ["share","sectionShareTitle"]
