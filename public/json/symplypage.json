@@ -80,19 +80,19 @@
       "images/card-1.png",
       "Titre card 1",
       "https://google",
-      "Texte image 1 Provinciam consulatu ianuario quod provincia sortitus habebit"
+      "Texte card 1 Provinciam consulatu ianuario quod provincia sortitus habebit"
     ],
     [
       "images/card-2.png",
       "Titre card 2",
       "https://qwant.com",
-      "Texte image 2 Provinciam consulatu ianuario quod provincia sortitus habebit"
+      "Texte card 2 Provinciam consulatu ianuario quod provincia sortitus habebit Provinciam consulatu ianuario quod provincia sortitus habebit"
     ],
     [
       "images/card-3.png",
       "Titre card 3",
       "https://bing.com",
-      "Texte image 3 Provinciam consulatu ianuario quod provincia sortitus habebit"
+      "Texte card 3 Provinciam consulatu ianuario"
     ]
   ],
   "sectionBandcampAlbumTitle": "Latest EP",
