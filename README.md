@@ -6,4 +6,6 @@ For now it's a POC.
 
 When it'll be more advanced, with a contact form and a possibly a way to easily custom css, I'll explain how to install it and use it.
 
+Have a look at the actual fancy version of Symplypage
+
 Gilles Lengy
