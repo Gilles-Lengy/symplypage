@@ -84,7 +84,7 @@ header h2 {
     margin-bottom: 0;
 }
 
-#card .card .card-body h4.card-title a{
+#card .card-wrapper .card .card-body h4.card-title a{
     display: inline-block;
     background-color: #FF8C00;
     padding: 1rem;
@@ -92,8 +92,8 @@ header h2 {
     text-decoration: none;
 }
 
-#card .card card-body h4.card-title a:hover{
-    background-color: #FF8A00;
+#card .card-wrapper .card .card-body h4.card-title a:hover{
+    background-color: #FF0000;
 }
 
 #on-the-internet .btn-default {
