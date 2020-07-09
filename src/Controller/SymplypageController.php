@@ -38,7 +38,14 @@ class SymplypageController extends AbstractController
 
         $serializerCssPreloaderYaml = new Serializer([$normalizerCssPreloaderYaml], [$encoderCssPreloaderYaml]);
 
-        $cssPreloader = $serializerCssPreloaderYaml->deserialize($cssPreloaderYaml, CssPreloader::class, 'yaml');
+        if ($this->getParameter('kernel.debug') || $emptySymplyPage === 1) {
+            $cache->delete('cssPreloader');
+        }
+
+        $cssPreloader = $cache->get('cssPreloader', function (ItemInterface $item) use ($serializerCssPreloaderYaml, $cssPreloaderYaml) {
+            $item->expiresAfter(60 * 60 * 24);//24 hours
+            return $serializerCssPreloaderYaml->deserialize($cssPreloaderYaml, CssPreloader::class, 'yaml');
+        });
 
 
         // Symplypage Content
