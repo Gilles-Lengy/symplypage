@@ -6,22 +6,22 @@ namespace App\Model;
 
 class CssPreloader
 {
-    private $bodyBackgroundColor;
+    private $backgroundColor;
 
     /**
      * @return mixed
      */
-    public function getBodyBackgroundColor()
+    public function getBackgroundColor()
     {
-        return $this->bodyBackgroundColor;
+        return $this->backgroundColor;
     }
 
     /**
-     * @param mixed $bodyBackgroundColor
+     * @param mixed $backgroundColor
      */
-    public function setBodyBackgroundColor($bodyBackgroundColor): void
+    public function setBackgroundColor($backgroundColor): void
     {
-        $this->bodyBackgroundColor = $bodyBackgroundColor;
+        $this->backgroundColor = $backgroundColor;
     }
 
 }
