@@ -5,7 +5,7 @@ namespace App\Controller;
 
 
 use App\Model\Symplypage;
-use App\Model\CssPreloading;
+use App\Model\CssPreloader;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Asset\Package;
 use Symfony\Component\Asset\VersionStrategy\EmptyVersionStrategy;
@@ -45,20 +45,20 @@ class SymplypageController extends AbstractController
             return $serializer->deserialize($symplyPageJson, Symplypage::class, 'json');
         });
 
-        $urlCssPreloadingYaml = $package->getUrl('yaml/css_preloading.yaml');
+        $urlCssPreloaderYaml = $package->getUrl('yaml/css_preloader.yaml');
 
-        $cssPreloadingYaml = file_get_contents($urlCssPreloadingYaml);
+        $cssPreloaderYaml = file_get_contents($urlCssPreloaderYaml);
 
-        $normalizerCssPreloadingYaml = new ObjectNormalizer();
-        $encoderCssPreloadingYaml = new YamlEncoder();
+        $normalizerCssPreloaderYaml = new ObjectNormalizer();
+        $encoderCssPreloaderYaml = new YamlEncoder();
 
-        $serializerCssPreloadingYaml = new Serializer([$normalizerCssPreloadingYaml], [$encoderCssPreloadingYaml]);
+        $serializerCssPreloaderYaml = new Serializer([$normalizerCssPreloaderYaml], [$encoderCssPreloaderYaml]);
 
-        $cssPreloading = $serializerCssPreloadingYaml->deserialize($cssPreloadingYaml, CssPreloading::class, 'yaml');
+        $cssPreloader = $serializerCssPreloaderYaml->deserialize($cssPreloaderYaml, CssPreloader::class, 'yaml');
 
 
 
-        return $this->render('symplypage.html.twig',['cssPreloading' => $cssPreloading,'symplyPage' => $symplyPage]);
+        return $this->render('symplypage.html.twig',['cssPreloader' => $cssPreloader,'symplyPage' => $symplyPage]);
     }
 
 }

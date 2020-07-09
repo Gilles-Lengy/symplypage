@@ -4,7 +4,7 @@
 namespace App\Model;
 
 
-class CssPreloading
+class CssPreloader
 {
     private $bodyBackgroundColor;
 
