@@ -9,4 +9,5 @@ statusBorder:
   right: '8px solid #00f000'
   bottom: '8px solid #ffff00'
   left: '8px solid #000fff'
+statusWidth: '200px'
 
