@@ -45,8 +45,8 @@
             width: {{ cssPreloader.statusWidth }};
             height: {{ cssPreloader.statusHeight }};
             background-color: {{ cssPreloader.statusBackgroundColor }};
-            -webkit-animation: spin 1s linear infinite; /* Safari */
-            animation: spin 1s linear infinite;
+            -webkit-animation: spin {{ cssPreloader.statusSpinningSpeed }} linear infinite; /* Safari */
+            animation: spin {{ cssPreloader.statusSpinningSpeed }} linear infinite;
         }
 
         /* Safari */

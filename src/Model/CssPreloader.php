@@ -13,6 +13,7 @@ class CssPreloader
     private $statusWidth;
     private $statusHeight;
     private $statusBackgroundColor;
+    private $statusSpinningSpeed;
 
     /**
      * @return mixed
@@ -125,6 +126,22 @@ class CssPreloader
     public function setStatusBackgroundColor($statusBackgroundColor): void
     {
         $this->statusBackgroundColor = $statusBackgroundColor;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getStatusSpinningSpeed()
+    {
+        return $this->statusSpinningSpeed;
+    }
+
+    /**
+     * @param mixed $statusSpinningSpeed
+     */
+    public function setStatusSpinningSpeed($statusSpinningSpeed): void
+    {
+        $this->statusSpinningSpeed = $statusSpinningSpeed;
     }
 
 

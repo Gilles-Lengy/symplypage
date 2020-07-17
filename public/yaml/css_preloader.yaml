@@ -12,4 +12,5 @@ statusBorder:
 statusWidth: '200px'
 statusHeight: '200px'
 statusBackgroundColor: '#000'
+statusSpinningSpeed: '18s'
 
