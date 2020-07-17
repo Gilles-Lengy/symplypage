@@ -9,6 +9,7 @@ class CssPreloader
     private $backgroundColor;
     private $statusPositionTopLeft;
     private $statusMargin;
+    private $statusBorder;
 
     /**
      * @return mixed
@@ -58,6 +59,23 @@ class CssPreloader
     {
         $this->statusMargin = $statusMargin;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getStatusBorder()
+    {
+        return $this->statusBorder;
+    }
+
+    /**
+     * @param mixed $statusBorder
+     */
+    public function setStatusBorder($statusBorder): void
+    {
+        $this->statusBorder = $statusBorder;
+    }
+
 
 
 }
