@@ -11,6 +11,7 @@ class CssPreloader
     private $statusMargin;
     private $statusBorder;
     private $statusWidth;
+    private $statusHeight;
 
     /**
      * @return mixed
@@ -92,6 +93,24 @@ class CssPreloader
     {
         $this->statusWidth = $statusWidth;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getStatusHeight()
+    {
+        return $this->statusHeight;
+    }
+
+    /**
+     * @param mixed $statusHeight
+     */
+    public function setStatusHeight($statusHeight): void
+    {
+        $this->statusHeight = $statusHeight;
+    }
+
+
 
 
 
