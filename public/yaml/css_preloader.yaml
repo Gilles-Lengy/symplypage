@@ -11,4 +11,5 @@ statusBorder:
   left: '8px solid #000fff'
 statusWidth: '200px'
 statusHeight: '200px'
+statusBackgroundColor: '#000'
 

@@ -12,6 +12,7 @@ class CssPreloader
     private $statusBorder;
     private $statusWidth;
     private $statusHeight;
+    private $statusBackgroundColor;
 
     /**
      * @return mixed
@@ -110,9 +111,21 @@ class CssPreloader
         $this->statusHeight = $statusHeight;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getStatusBackgroundColor()
+    {
+        return $this->statusBackgroundColor;
+    }
 
-
-
+    /**
+     * @param mixed $statusBackgroundColor
+     */
+    public function setStatusBackgroundColor($statusBackgroundColor): void
+    {
+        $this->statusBackgroundColor = $statusBackgroundColor;
+    }
 
 
 }
