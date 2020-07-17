@@ -7,7 +7,7 @@ namespace App\Model;
 class CssPreloader
 {
     private $backgroundColor;
-    private $positionStatusTopLeft;
+    private $statusPositionTopLeft;
     private $statusMargin;
 
     /**
@@ -29,18 +29,19 @@ class CssPreloader
     /**
      * @return mixed
      */
-    public function getPositionStatusTopLeft()
+    public function getStatusPositionTopLeft()
     {
-        return $this->positionStatusTopLeft;
+        return $this->statusPositionTopLeft;
     }
 
     /**
-     * @param mixed $positionStatusTopLeft
+     * @param mixed $statusPositionTopLeft
      */
-    public function setPositionStatusTopLeft($positionStatusTopLeft): void
+    public function setStatusPositionTopLeft($statusPositionTopLeft): void
     {
-        $this->positionStatusTopLeft = $positionStatusTopLeft;
+        $this->statusPositionTopLeft = $statusPositionTopLeft;
     }
+
 
     /**
      * @return mixed
