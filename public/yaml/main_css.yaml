@@ -3,6 +3,7 @@ link:
   base: 'color: #fff000;text-decoration: underline;'
   hover: 'color: #ff0000;text-decoration: none;'
 paragraph: 'font-size: 1.25rem;'
+initSections: 'margin-top: 4rem;margin-bottom: 8rem;text-align: center;'
 header:
   header: 'margin-top:0;background-color: red;'
   h1: 'padding: 1rem 2rem;background-color: #FF8C00;text-transform: uppercase;margin-bottom: 0;'

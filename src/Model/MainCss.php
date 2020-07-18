@@ -9,6 +9,7 @@ class MainCss
     private $body;
     private $link;
     private $paragraph;
+    private $initSections;
     private $header;
 
     /**
@@ -62,6 +63,22 @@ class MainCss
     /**
      * @return mixed
      */
+    public function getInitSections()
+    {
+        return $this->initSections;
+    }
+
+    /**
+     * @param mixed $initSections
+     */
+    public function setInitSections($initSections): void
+    {
+        $this->initSections = $initSections;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getHeader()
     {
         return $this->header;
@@ -74,8 +91,6 @@ class MainCss
     {
         $this->header = $header;
     }
-
-
 
 
 }
