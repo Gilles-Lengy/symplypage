@@ -9,6 +9,7 @@ class MainCss
     private $body;
     private $link;
     private $paragraph;
+    private $header;
 
     /**
      * @return mixed
@@ -57,6 +58,24 @@ class MainCss
     {
         $this->paragraph = $paragraph;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getHeader()
+    {
+        return $this->header;
+    }
+
+    /**
+     * @param mixed $header
+     */
+    public function setHeader($header): void
+    {
+        $this->header = $header;
+    }
+
+
 
 
 }
