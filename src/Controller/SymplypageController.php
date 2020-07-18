@@ -68,7 +68,7 @@ class SymplypageController extends AbstractController
             return $serializerSymplyPageJson->deserialize($symplyPageJson, Symplypage::class, 'json');
         });
 
-        return $this->render('symplypage.html.twig', ['cssPreloader' => $cssPreloader, 'symplyPage' => $symplyPage]);
+        return $this->render('symplypage.html.twig', ['cssPreloader' => $cssPreloader, 'symplyPage' => $symplyPage, 'emptySymplyPage' => $emptySymplyPage]);
     }
 
     /**
