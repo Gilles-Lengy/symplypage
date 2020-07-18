@@ -7,6 +7,7 @@ namespace App\Model;
 class mainCss
 {
     private $body;
+    private $link;
 
     /**
      * @return mixed

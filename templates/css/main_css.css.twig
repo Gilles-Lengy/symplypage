@@ -2,3 +2,11 @@ body {
     color: {{ mainCss.body['color']|raw }};
     background-color: {{ mainCss.body['backgroundColor']|raw }};
 }
+
+a {
+    {{ mainCss.link['base']|raw }};
+}
+
+a:hover {
+    {{ mainCss.link['hover']|raw }};
+}
