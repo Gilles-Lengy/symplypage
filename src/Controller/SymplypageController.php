@@ -70,4 +70,22 @@ class SymplypageController extends AbstractController
         return $this->render('symplypage.html.twig', ['cssPreloader' => $cssPreloader, 'symplyPage' => $symplyPage]);
     }
 
+    /**
+     * @Route("/{emptySymplyPage}/main_css", name="main_css_route")
+     */
+    public function mainCss(int $emptySymplyPage = 0)
+    {
+
+        $firstColor = "yellow";
+
+        $response = $this->render('css/main_css.css.twig', [
+            'firstColor' => $firstColor,
+        ]);
+
+        $response->headers->set('Content-Type', 'text/css');
+
+        return $response;
+
+    }
+
 }
