@@ -6,6 +6,7 @@ namespace App\Controller;
 
 use App\Model\Symplypage;
 use App\Model\CssPreloader;
+use App\Model\MainCss;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Asset\Package;
 use Symfony\Component\Asset\VersionStrategy\EmptyVersionStrategy;
@@ -93,7 +94,7 @@ class SymplypageController extends AbstractController
 
         $mainCss = $cache->get('mainCss', function (ItemInterface $item) use ($serializerMainCssYaml, $mainCssYaml) {
             $item->expiresAfter(60 * 60 * 24);//24 hours
-            return $serializerMainCssYaml->deserialize($mainCssYaml, CssPreloader::class, 'yaml');
+            return $serializerMainCssYaml->deserialize($mainCssYaml, MainCss::class, 'yaml');
         });
 
         $response = $this->render('css/main_css.css.twig', [

@@ -1,8 +1,8 @@
-body:
-  color: '#000'
-  backgroundColor: '#fff'
+body: 'color: #FFF;
+        background-color: #000000;'
 link:
-  base: 'color: #FFF;
+  base: 'color: #fff000;
         text-decoration: underline;'
-  hover: 'color: #FFF;
+  hover: 'color: #ff0000;
           text-decoration: none;'
+paragraph: 'font-size: 2rem;'

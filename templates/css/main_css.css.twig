@@ -1,6 +1,5 @@
 body {
-    color: {{ mainCss.body['color']|raw }};
-    background-color: {{ mainCss.body['backgroundColor']|raw }};
+    {{ mainCss.body|raw }}
 }
 
 a {
@@ -9,4 +8,7 @@ a {
 
 a:hover {
     {{ mainCss.link['hover']|raw }};
+}
+p{
+    {{ mainCss.paragraph|raw }};
 }
