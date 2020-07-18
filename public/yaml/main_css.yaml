@@ -1,1 +1,3 @@
-backgroundColor: '#fff000'
+body:
+  color: '#000'
+  backgroundColor: '#fff'

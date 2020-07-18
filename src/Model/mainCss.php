@@ -6,22 +6,23 @@ namespace App\Model;
 
 class mainCss
 {
-    private $backgroundColor;
+    private $body;
 
     /**
      * @return mixed
      */
-    public function getBackgroundColor()
+    public function getBody()
     {
-        return $this->backgroundColor;
+        return $this->body;
     }
 
     /**
-     * @param mixed $backgroundColor
+     * @param mixed $body
      */
-    public function setBackgroundColor($backgroundColor): void
+    public function setBody($body): void
     {
-        $this->backgroundColor = $backgroundColor;
+        $this->body = $body;
     }
+
 
 }
