@@ -73,13 +73,31 @@ class SymplypageController extends AbstractController
     /**
      * @Route("/{emptySymplyPage}/main_css", name="main_css_route")
      */
-    public function mainCss(int $emptySymplyPage = 0)
+    public function mainCss(int $emptySymplyPage = 0, CacheInterface $cache)
     {
 
-        $firstColor = "yellow";
+        $package = new Package(new EmptyVersionStrategy());
+
+        $urlMainCssYaml = $package->getUrl('yaml/main_css.yaml');
+
+        $mainCssYaml = file_get_contents($urlMainCssYaml);
+
+        $normalizerMainCssYaml = new ObjectNormalizer();
+        $encoderMainCssYaml = new YamlEncoder();
+
+        $serializerMainCssYaml = new Serializer([$normalizerMainCssYaml], [$encoderMainCssYaml]);
+
+        if ($this->getParameter('kernel.debug') || $emptySymplyPage === 1) {
+            $cache->delete('mainCss');
+        }
+
+        $mainCss = $cache->get('mainCss', function (ItemInterface $item) use ($serializerMainCssYaml, $mainCssYaml) {
+            $item->expiresAfter(60 * 60 * 24);//24 hours
+            return $serializerMainCssYaml->deserialize($mainCssYaml, CssPreloader::class, 'yaml');
+        });
 
         $response = $this->render('css/main_css.css.twig', [
-            'firstColor' => $firstColor,
+            'mainCss' => $mainCss,
         ]);
 
         $response->headers->set('Content-Type', 'text/css');
