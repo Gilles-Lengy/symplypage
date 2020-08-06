@@ -55,22 +55,50 @@ header h2 {
 {{ mainCss.textSection['section']|raw }}
 }
 
-#text h2{
+#text h2 {
 {{ mainCss.textSection['h2']|raw }}
 }
 
-#text p{
+#text p {
 {{ mainCss.textSection['p']|raw }}
 }
 
-#text p#text-signature{
+#text p#text-signature {
 {{ mainCss.textSection['pTextSignature']|raw }}
 }
 
-#text p#text-signature a{
+#text p#text-signature a {
 {{ mainCss.textSection['pTextSignatureLink']|raw }}
 }
 
-#text p#text-signature a:hover{
+#text p#text-signature a:hover {
 {{ mainCss.textSection['pTextSignatureLinkHover']|raw }}
+}
+
+#photo {
+{{ mainCss.photoSection['section']|raw }}
+}
+
+#photo h3 {
+{{ mainCss.photoSection['h3']|raw }}
+}
+
+#photo .card {
+{{ mainCss.photoSection['card']['card']|raw }}
+}
+
+#photo .card .card-img-top {
+{{ mainCss.photoSection['card']['cardImgTop']|raw }}
+}
+
+#photo .card .card-body {
+{{ mainCss.photoSection['card']['cardBody']|raw }}
+}
+
+#photo .card .card-body h5 {
+{{ mainCss.photoSection['card']['h5']|raw }}
+}
+
+#photo .card .card-body p {
+{{ mainCss.photoSection['card']['p']|raw }}
 }

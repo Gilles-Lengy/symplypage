@@ -13,6 +13,7 @@ class MainCss
     private $initCard;
     private $header;
     private $textSection;
+    private $photoSection;
 
     /**
      * @return mixed
@@ -126,6 +127,24 @@ class MainCss
     {
         $this->textSection = $textSection;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getPhotoSection()
+    {
+        return $this->photoSection;
+    }
+
+    /**
+     * @param mixed $photoSection
+     */
+    public function setPhotoSection($photoSection): void
+    {
+        $this->photoSection = $photoSection;
+    }
+
+
 
 
 }
