@@ -10,6 +10,7 @@ class MainCss
     private $link;
     private $paragraph;
     private $initSections;
+    private $initCard;
     private $header;
 
     /**
@@ -85,12 +86,31 @@ class MainCss
     }
 
     /**
+     * @return mixed
+     */
+    public function getInitCard()
+    {
+        return $this->initCard;
+    }
+
+    /**
+     * @param mixed $initCard
+     */
+    public function setInitCard($initCard): void
+    {
+        $this->initCard = $initCard;
+    }
+
+
+
+    /**
      * @param mixed $header
      */
     public function setHeader($header): void
     {
         $this->header = $header;
     }
+
 
 
 }
