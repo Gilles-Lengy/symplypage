@@ -36,7 +36,23 @@ footer {
 }
 
 .card {
-{{ mainCss.initCard|raw }}
+{{ mainCss.initCard['card']|raw }}
+}
+
+.card .card-img-top {
+{{ mainCss.initCard['cardImgTop']|raw }}
+}
+
+.card .card-body {
+{{ mainCss.initCard['cardBody']|raw }}
+}
+
+.card .card-body h5 {
+{{ mainCss.initCard['h5']|raw }}
+}
+
+.card .card-body p {
+{{ mainCss.initCard['p']|raw }}
 }
 
 header {
