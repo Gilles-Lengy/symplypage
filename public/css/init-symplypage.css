@@ -60,7 +60,7 @@ header h2 {
     background-color: transparent;
 }*/
 
-#text h3,
+/*#text h3,
 #video h3,
 #photo h3,
 #card h3,
@@ -69,7 +69,7 @@ header h2 {
 #share h3{
     text-transform: uppercase;
     margin-bottom: .75rem;
-}
+}*/
 
 #text p#text-signature {
     font-style: italic;

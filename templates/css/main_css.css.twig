@@ -22,7 +22,17 @@ header,
 #on-the-internet,
 #share,
 footer {
-        {{ mainCss.initSections|raw }};
+        {{ mainCss.initSections['section']|raw }};
+}
+
+#text h3,
+#video h3,
+#photo h3,
+#card h3,
+#bandcamp-album h3,
+#on-the-internet h3,
+#share h3{
+    {{ mainCss.initSections['h3']|raw }};
 }
 
 .card {
