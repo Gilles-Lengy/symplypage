@@ -10,6 +10,7 @@ initCard: 'color: #000;background-color: #FFF;border: 4px solid #FFF;border-radi
 header:
   header: 'margin-top:0;background-color: red;'
   h1: 'padding: 1rem 2rem;background-color: #FF8C00;text-transform: uppercase;margin-bottom: 0;'
+  img: 'width:100%;'
   h2: 'padding: 1rem 2rem;background-color: blue;text-transform: uppercase;margin-bottom: 0;'
 textSection:
   section: 'margin-top: 2rem;margin-bottom: 4rem;'
