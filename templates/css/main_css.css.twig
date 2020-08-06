@@ -18,7 +18,7 @@ header,
 #text,
 #video,
 #photo,
-#card,
+#cards,
 #bandcamp-album,
 #on-the-internet,
 #share,
@@ -28,7 +28,7 @@ footer {
 
 #video h3,
 #photo h3,
-#card h3,
+#cards h3,
 #bandcamp-album h3,
 #on-the-internet h3,
 #share h3 {
@@ -145,4 +145,39 @@ header h2 {
 
 #video .card .card-body p {
 {{ mainCss.videoSection['card']['p']|raw }}
+}
+#cards {
+{{ mainCss.videoSection['section']|raw }}
+}
+
+#cards h3 {
+{{ mainCss.cardsSection['h3']|raw }}
+}
+
+#cards .card-wrapper {
+{{ mainCss.cardsSection['cards']['cardWrapper']|raw }}
+}
+
+#cards .card-wrapper .card {
+{{ mainCss.cardsSection['cards']['card']|raw }}
+}
+
+#cards .card-wrapper .card .card-body {
+{{ mainCss.cardsSection['cards']['cardBody']|raw }}
+}
+
+#cards .card-wrapper .card .card-body h4 {
+{{ mainCss.cardsSection['cards']['h4']|raw }}
+}
+
+#cards .card-wrapper .card .card-body h4 a {
+{{ mainCss.cardsSection['cards']['h4Link']|raw }}
+}
+
+#cards .card-wrapper .card .card-body h4 a:hover {
+{{ mainCss.cardsSection['cards']['h4LinkHover']|raw }}
+}
+
+#cards .card-wrapper .card .card-body p {
+{{ mainCss.cardsSection['cards']['p']|raw }}
 }

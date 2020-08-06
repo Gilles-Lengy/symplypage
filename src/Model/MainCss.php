@@ -15,6 +15,7 @@ class MainCss
     private $textSection;
     private $photoSection;
     private $videoSection;
+    private $cardsSection;
 
     /**
      * @return mixed
@@ -161,5 +162,20 @@ class MainCss
         $this->videoSection = $videoSection;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getCardsSection()
+    {
+        return $this->cardsSection;
+    }
+
+    /**
+     * @param mixed $cardsSection
+     */
+    public function setCardsSection($cardsSection): void
+    {
+        $this->cardsSection = $cardsSection;
+    }
 
 }
