@@ -11,3 +11,10 @@ header:
   header: 'margin-top:0;background-color: red;'
   h1: 'padding: 1rem 2rem;background-color: #FF8C00;text-transform: uppercase;margin-bottom: 0;'
   h2: 'padding: 1rem 2rem;background-color: blue;text-transform: uppercase;margin-bottom: 0;'
+textSection:
+  section: 'margin-top: 2rem;margin-bottom: 4rem;'
+  h2: 'text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;'
+  p: 'color: #333333;'
+  pTextSignature: 'font-style: italic;'
+  pTextSignatureLink: 'color: #ff0000;'
+  pTextSignatureLinkHover: 'text-decoration: underline;'

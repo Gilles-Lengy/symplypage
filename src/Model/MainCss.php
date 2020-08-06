@@ -12,6 +12,7 @@ class MainCss
     private $initSections;
     private $initCard;
     private $header;
+    private $textSection;
 
     /**
      * @return mixed
@@ -102,7 +103,6 @@ class MainCss
     }
 
 
-
     /**
      * @param mixed $header
      */
@@ -111,6 +111,21 @@ class MainCss
         $this->header = $header;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getTextSection()
+    {
+        return $this->textSection;
+    }
+
+    /**
+     * @param mixed $textSection
+     */
+    public function setTextSection($textSection): void
+    {
+        $this->textSection = $textSection;
+    }
 
 
 }

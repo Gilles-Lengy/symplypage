@@ -1,16 +1,17 @@
 body {
-    {{ mainCss.body|raw }}
+{{ mainCss.body|raw }}
 }
 
 a {
-    {{ mainCss.link['base']|raw }};
+{{ mainCss.link['base']|raw }};
 }
 
 a:hover {
-    {{ mainCss.link['hover']|raw }};
+{{ mainCss.link['hover']|raw }};
 }
-p{
-    {{ mainCss.paragraph|raw }};
+
+p {
+{{ mainCss.paragraph|raw }};
 }
 
 header,
@@ -22,7 +23,7 @@ header,
 #on-the-internet,
 #share,
 footer {
-        {{ mainCss.initSections['section']|raw }};
+{{ mainCss.initSections['section']|raw }};
 }
 
 #text h3,
@@ -31,12 +32,12 @@ footer {
 #card h3,
 #bandcamp-album h3,
 #on-the-internet h3,
-#share h3{
-    {{ mainCss.initSections['h3']|raw }};
+#share h3 {
+{{ mainCss.initSections['h3']|raw }};
 }
 
 .card {
-        {{ mainCss.initCard|raw }};
+{{ mainCss.initCard|raw }};
 }
 
 header {
@@ -49,4 +50,24 @@ header h1 {
 
 header h2 {
 {{ mainCss.header['h2']|raw }};
+}
+
+#text {
+{{ mainCss.textSection['section']|raw }};
+}
+
+#text p{
+{{ mainCss.textSection['p']|raw }};
+}
+
+#text p#text-signature{
+{{ mainCss.textSection['pTextSignature']|raw }};
+}
+
+#text p#text-signature a{
+{{ mainCss.textSection['pTextSignatureLink']|raw }};
+}
+
+#text p#text-signature a:hover{
+{{ mainCss.textSection['pTextSignatureLinkHover']|raw }};
 }
