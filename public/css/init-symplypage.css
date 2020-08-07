@@ -70,7 +70,7 @@ header h2 {
     font-style: italic;
 }*/
 
-#card .card-wrapper{
+/*#card .card-wrapper{
     margin-bottom: 2rem;
 }
 
@@ -89,7 +89,7 @@ header h2 {
 
 #card .card-wrapper .card .card-body h4.card-title a:hover{
     background-color: #FF0000;
-}
+}*/
 
 #bandcamp-album #bandcamp-album-player-container{
     border: 4px solid #FFF;
