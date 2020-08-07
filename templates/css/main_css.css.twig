@@ -146,6 +146,7 @@ header h2 {
 #video .card .card-body p {
 {{ mainCss.videoSection['card']['p']|raw }}
 }
+
 #cards {
 {{ mainCss.videoSection['section']|raw }}
 }
@@ -180,4 +181,16 @@ header h2 {
 
 #cards .card-wrapper .card .card-body p {
 {{ mainCss.cardsSection['cards']['p']|raw }}
+}
+
+#bandcamp-album {
+{{ mainCss.bandcampAlbumSection['section']|raw }}
+}
+
+#bandcamp-album h3 {
+{{ mainCss.bandcampAlbumSection['h3']|raw }}
+}
+
+#bandcamp-album #bandcamp-album-player-container {
+{{ mainCss.bandcampAlbumSection['bandcampPlayerContainer']|raw }}
 }

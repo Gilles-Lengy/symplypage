@@ -16,6 +16,7 @@ class MainCss
     private $photoSection;
     private $videoSection;
     private $cardsSection;
+    private $bandcampAlbumSection;
 
     /**
      * @return mixed
@@ -177,5 +178,22 @@ class MainCss
     {
         $this->cardsSection = $cardsSection;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getBandcampAlbumSection()
+    {
+        return $this->bandcampAlbumSection;
+    }
+
+    /**
+     * @param mixed $bandcampAlbumSection
+     */
+    public function setBandcampAlbumSection($bandcampAlbumSection): void
+    {
+        $this->bandcampAlbumSection = $bandcampAlbumSection;
+    }
+
 
 }
