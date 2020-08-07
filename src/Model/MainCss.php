@@ -17,6 +17,7 @@ class MainCss
     private $videoSection;
     private $cardsSection;
     private $bandcampAlbumSection;
+    private $onTheInternetSection;
 
     /**
      * @return mixed
@@ -194,6 +195,24 @@ class MainCss
     {
         $this->bandcampAlbumSection = $bandcampAlbumSection;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getOnTheInternetSection()
+    {
+        return $this->onTheInternetSection;
+    }
+
+    /**
+     * @param mixed $onTheInternetSection
+     */
+    public function setOnTheInternetSection($onTheInternetSection): void
+    {
+        $this->onTheInternetSection = $onTheInternetSection;
+    }
+
+
 
 
 }

@@ -56,3 +56,9 @@ bandcampAlbumSection:
   section: 'margin-top: 2rem;margin-bottom: 4rem;'
   h3: 'text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;'
   bandcampPlayerContainer: 'border: 4px solid #FFF;background-color: #333333;'
+onTheInternetSection:
+  section: 'margin-top: 2rem;margin-bottom: 4rem;'
+  h3: 'text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;'
+  btnDefault : 'font-size: 2rem;color: #ffffff;border: 4px solid #ffffff;background-color: transparent;border-radius: 0;text-transform: uppercase;min-width: 80px;'
+  btnDefaultHover : 'color: #000000;background-color: #ffffff; border: 4px solid #ffffff;'
+  liItem: 'margin-bottom: .75rem;'
