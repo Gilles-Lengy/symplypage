@@ -1,0 +1,16 @@
+backgroundColor: '#ff0000'
+statusPositionTopLeft:
+  top: '50%'
+  left: '50%'
+statusMargin: '-60px 0 0 -60px'
+statusBorder:
+  radius: '25% 50%'
+  top: '8px solid #ff0000'
+  right: '8px solid #00f000'
+  bottom: '8px solid #ffff00'
+  left: '8px solid #000fff'
+statusWidth: '200px'
+statusHeight: '200px'
+statusBackgroundColor: '#000'
+statusSpinningSpeed: '18s'
+

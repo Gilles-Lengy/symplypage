@@ -1,0 +1,140 @@
+{
+  "headTitle": "Welcome to my Symplypage !!!!",
+  "headDescription": "Welcome ton my Symplypage !!!! This is the description of your page for a better SEO",
+  "pageTitle": "Hello World From Json File",
+  "pageHeaderImageURL": "images/header-image.png",
+  "pageHeaderImageAlt": "The alternative texte to the header image",
+  "pageSlogan": "A wonderful slogan for my symplypage",
+  "sectionTextTitle": "The text title of the page",
+  "sectionTextP": [
+    "Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat.",
+    "Cognitis enim pilatorum caesorumque funeribus nemo deinde ad has stationes appulit navem, sed ut Scironis praerupta letalia declinantes litoribus Cypriis contigui navigabant, quae Isauriae scopulis sunt controversa."
+  ],
+  "sectionTextSignature": "Gilles Lengy",
+  "sectionTextSignatureURL": "https://github.com/Gilles-Lengy",
+  "modalMenuTitle": "Menu",
+  "textLinkGoTop": "Go To the Top of this page",
+  "sectionOrder": [
+    ["text","sectionTextTitle"],
+    ["photo","sectionPhotoTitle"],
+    ["video","sectionVideoTitle"],
+    ["card","sectionCardTitle"],
+    ["bandcamp-album","sectionBandcampAlbumTitle"],
+    ["on-the-internet","sectionOnTheInternetTitle"],
+    ["share","sectionShareTitle"]
+  ],
+  "sectionVideoTitle": "Some videos I like",
+  "sectionVideoData": [
+    [
+      "407147635",
+      "Titre video 1",
+      "Texte video 1 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu."
+    ],
+    [
+      "393634761",
+      "Titre video 2",
+      "Texte video 2 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu."
+    ],
+    [
+      "334092219",
+      "Titre video 3",
+      "Texte video 3 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu."
+    ],
+    [
+      "311983548",
+      "Titre video 3",
+      "Texte image 1"
+    ],
+    [
+      "407147635",
+      "Titre video 4",
+      "Texte video 4 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu."
+    ]
+  ],
+  "sectionPhotoTitle": "Some photos I like",
+  "sectionPhotoData": [
+    [
+      "images/image-1.png",
+      "Titre image 1",
+      "Texte image 1 Provinciam consulatu ianuario quod provincia sortitus habebit"
+    ],
+    [
+      "images/image-2.png",
+      "Titre image 2",
+      "Texte image 2 Provinciam consulatu ianuario quod provincia sortitus habebit"
+    ],
+    [
+      "images/image-3.png",
+      "Titre image 3",
+      "Texte image 3 Provinciam consulatu ianuario quod provincia sortitus habebit"
+    ],
+    [
+      "images/image-4.png",
+      "Titre image 4",
+      "Texte image 4 Provinciam consulatu ianuario quod provincia sortitus habebit"
+    ]
+  ],
+  "sectionCardTitle": "Some cards",
+  "sectionCardData": [
+    [
+      "images/card-1.png",
+      "Titre card 1",
+      "https://google.com",
+      "Texte card 1 Provinciam consulatu ianuario quod provincia sortitus habebit"
+    ],
+    [
+      "images/card-2.png",
+      "Titre card 2",
+      "https://qwant.com",
+      "Texte card 2 Provinciam consulatu ianuario quod provincia sortitus habebit Provinciam consulatu ianuario quod provincia sortitus habebit"
+    ],
+    [
+      "images/card-3.png",
+      "Titre card 3",
+      "https://bing.com",
+      "Texte card 3 Provinciam consulatu ianuario"
+    ]
+  ],
+  "sectionBandcampAlbumTitle": "Latest EP",
+  "sectionBandcampAlbumID": "2415776908",
+  "sectionBandcampAlbumSize": "large",
+  "sectionBandcampAlbumBGColor": "333333",
+  "sectionBandcampAlbumLinkCol": "ffffff",
+  "sectionBandcampAlbumHeight": "1069",
+  "sectionBandcampAlbumUrl": "https://musique.coeurdepirate.com/album/en-cas-de-temp-te-ce-jardin-sera-ferm",
+  "sectionBandcampAlbumTitleTitle": "En cas de tempête, ce jardin sera fermé.",
+  "sectionVideoPlayerColor": "cccccc",
+  "sectionOnTheInternetTitle": "More on the internet",
+  "sectionOnTheInternetData": [
+    [
+      "youtube",
+      "https://youtube.com"
+    ],
+    [
+      "vimeo",
+      "https://vimeo.com"
+    ],
+    [
+      "twitter",
+      "https://twitter.com"
+    ],
+    [
+      "instagram",
+      "https://www.instagram.com/"
+    ],
+    [
+      "facebook",
+      "https://facebook.com"
+    ]
+  ],
+  "sectionShareTitle" : "Love it ? Share it !",
+  "textShareLinkFacebook" : "Share on Facebook",
+  "textShareLinkTwitter" : "Share on Twitter",
+  "viaShareLinkTwitter" : "gilleslengy",
+  "footerSentence": "Proudly made by ",
+  "footerUrl": "https://github.com/Gilles-Lengy",
+  "footerUrlTitle": "Gilles Lengy",
+  "cookieAlertText" : "Cookies are used on this website to ensure you get the best experience.",
+  "cookieAlertLearnMore" : "Learn more.",
+  "cookieAlertAgree" : "I agree"
+}
