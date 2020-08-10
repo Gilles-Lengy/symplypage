@@ -18,6 +18,7 @@ class MainCss
     private $cardsSection;
     private $bandcampAlbumSection;
     private $onTheInternetSection;
+    private $shareSection;
 
     /**
      * @return mixed
@@ -211,6 +212,24 @@ class MainCss
     {
         $this->onTheInternetSection = $onTheInternetSection;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getShareSection()
+    {
+        return $this->shareSection;
+    }
+
+    /**
+     * @param mixed $shareSection
+     */
+    public function setShareSection($shareSection): void
+    {
+        $this->shareSection = $shareSection;
+    }
+
+
 
 
 
