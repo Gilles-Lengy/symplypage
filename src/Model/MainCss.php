@@ -11,6 +11,7 @@ class MainCss
     private $paragraph;
     private $initSections;
     private $initCard;
+    private $initDefaultButton;
     private $header;
     private $textSection;
     private $photoSection;
@@ -87,14 +88,6 @@ class MainCss
     /**
      * @return mixed
      */
-    public function getHeader()
-    {
-        return $this->header;
-    }
-
-    /**
-     * @return mixed
-     */
     public function getInitCard()
     {
         return $this->initCard;
@@ -108,6 +101,29 @@ class MainCss
         $this->initCard = $initCard;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getInitDefaultButton()
+    {
+        return $this->initDefaultButton;
+    }
+
+    /**
+     * @param mixed $initDefaultButton
+     */
+    public function setInitDefaultButton($initDefaultButton): void
+    {
+        $this->initDefaultButton = $initDefaultButton;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getHeader()
+    {
+        return $this->header;
+    }
 
     /**
      * @param mixed $header

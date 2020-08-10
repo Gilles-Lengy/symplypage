@@ -12,6 +12,9 @@ initCard:
   cardBody: 'padding: 2rem;'
   h5: 'color: #fff000;'
   p: 'color: #ff0000;'
+initDefaultButton:
+  btnDefault : 'font-size: 2rem;color: #ffffff;border: 4px solid #ffffff;background-color: transparent;border-radius: 0;text-transform: uppercase;min-width: 80px;'
+  btnDefaultHover : 'color: #000000;background-color: #ffffff; border: 4px solid #ffffff;'
 header:
   header: 'margin-top:0;background-color: red;'
   h1: 'padding: 1rem 2rem;background-color: #FF8C00;text-transform: uppercase;margin-bottom: 0;'
