@@ -20,6 +20,7 @@ class MainCss
     private $bandcampAlbumSection;
     private $onTheInternetSection;
     private $shareSection;
+    private $modalMenu;
 
     /**
      * @return mixed
@@ -245,9 +246,20 @@ class MainCss
         $this->shareSection = $shareSection;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getModalMenu()
+    {
+        return $this->modalMenu;
+    }
 
-
-
-
+    /**
+     * @param mixed $modalMenu
+     */
+    public function setModalMenu($modalMenu): void
+    {
+        $this->modalMenu = $modalMenu;
+    }
 
 }
