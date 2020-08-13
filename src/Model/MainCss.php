@@ -21,6 +21,7 @@ class MainCss
     private $onTheInternetSection;
     private $shareSection;
     private $modalMenu;
+    private $navHamburger;
 
     /**
      * @return mixed
@@ -261,5 +262,23 @@ class MainCss
     {
         $this->modalMenu = $modalMenu;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getNavHamburger()
+    {
+        return $this->navHamburger;
+    }
+
+    /**
+     * @param mixed $navHamburger
+     */
+    public function setNavHamburger($navHamburger): void
+    {
+        $this->navHamburger = $navHamburger;
+    }
+
+
 
 }
