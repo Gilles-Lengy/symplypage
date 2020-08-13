@@ -74,3 +74,5 @@ modalMenu:
   content: 'color: black;'
   contentLink: 'color: black;'
   contentLinkHover: 'color: red;'
+navHamburger:
+  navbar: 'position: fixed;bottom: 30px;right: 30px;'
