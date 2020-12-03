@@ -36,6 +36,7 @@ header h1 {
     margin-bottom: 0;
     background-color: var(--main-dark-color);
     color: var(--main-light-color);
+    font-size: 4rem;
     font-weight: var(--main-strong-font-weight);
     text-transform: uppercase;
 }
