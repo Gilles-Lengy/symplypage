@@ -1,20 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
 
+:root {
+    --main-dark-color: #000;
+}
+
+:root {
+    --main-medium-color: #4A4A4A;
+}
+
+:root {
+    --main-light-color: #fff;
+}
+
+:root {
+    --main-medium-font-weight: 400;
+}
+
+:root {
+    --main-strong-font-weight: 900;
+}
+
 body{
     font-family: 'Orbitron', sans-serif;
-    font-weight: 400;
+    font-weight: var(--main-medium-font-weight);
+    background-color: var(--main-dark-color);
 }
 
 header {
-    margin-top:0;background-color: red;
+    margin-top:0;
+    background-color: var(--main-dark-color);
 }
 
 header h1 {
     padding: 1rem 2rem;
-    background-color: #FF8C00;
     margin-bottom: 0;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 900;
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    font-weight: var(--main-strong-font-weight);
     text-transform: uppercase;
 }
 
