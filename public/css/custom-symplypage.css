@@ -41,6 +41,8 @@ header h1 {
 
 header img {
     width:100%;
+    border-top: .5rem solid var(--main-light-color);
+    border-bottom: .5rem solid var(--main-light-color);
 }
 
 header h2 {
