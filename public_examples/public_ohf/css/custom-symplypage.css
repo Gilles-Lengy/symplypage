@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+
+:root {
+    --main-dark-color: #000;
+}
+
+:root {
+    --main-medium-color: #4A4A4A;
+}
+
+:root {
+    --main-light-color: #fff;
+}
+
+:root {
+    --main-medium-font-weight: 400;
+}
+
+:root {
+    --main-strong-font-weight: 900;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: var(--main-medium-font-weight);
+    background-color: var(--main-dark-color);
+}
+
+header {
+    margin-top:0;
+    background-color: var(--main-dark-color);
+}
+
+header h1 {
+    padding: 1rem 2rem;
+    margin-bottom: 0;
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    font-size: 4rem;
+    font-weight: var(--main-strong-font-weight);
+    text-transform: uppercase;
+}
+
+header img {
+    width:100%;
+}
+
+header h2 {
+    padding: 1rem 2rem;background-color: blue;text-transform: uppercase;margin-bottom: 0;
+}
+
+#text {
+    margin-top: 2rem;margin-bottom: 4rem;
+}
+
+#text h2 {
+    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
+}
+
+#text p {
+    color: #333333;
+}
+
+#text p#text-signature {
+    font-style: italic;
+}
+
+#text p#text-signature a {
+    color: #ff0000;
+}
+
+#text p#text-signature a:hover {
+    text-decoration: underline;
+}
+
+#photo {
+    margin-top: 2rem;margin-bottom: 4rem;
+}
+
+#photo h3 {
+    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
+}
+
+#photo .card {
+    background-color: #FF0;border: 4px solid #FF0;
+}
+
+#photo .card .card-img-top {
+    border-bottom: 4px solid #F00;
+}
+
+#photo .card .card-body {
+    padding: 4rem;
+}
+
+#photo .card .card-body h5 {
+    color: #ff0000;
+}
+
+#photo .card .card-body p {
+    color: #fff000;
+}
+
+#video {
+    margin-top: 2rem;margin-bottom: 4rem;
+}
+
+#video h3 {
+    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
+}
+
+#video .card {
+    background-color: #FF0;border: 4px solid #FF0;
+}
+
+#video .card .card-body {
+    border-top: 4px solid #F00;padding: 4rem;
+}
+
+#video .card .card-body h5 {
+    color: #ff0000;
+}
+
+#video .card .card-body p {
+    color: #fff000;
+}
+
+#cards {
+    margin-top: 2rem;margin-bottom: 4rem;
+}
+
+#cards h3 {
+    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
+}
+
+#cards .card-wrapper {
+    margin-bottom: 2rem;
+}
+
+#cards .card-wrapper .card {
+    border: 4px solid #FF0;padding-bottom: .75rem;margin-bottom: 0;
+}
+
+#cards .card-wrapper .card .card-body {
+    border-top: 4px solid #FF0;padding: 2rem;
+}
+
+#cards .card-wrapper .card .card-body h4 {
+    background-color: #ff0000;
+}
+
+#cards .card-wrapper .card .card-body h4 a {
+    display: inline-block;background-color: #FF8C00;padding: 1rem;width: 100%;text-decoration: none;color: #000000;
+}
+
+#cards .card-wrapper .card .card-body h4 a:hover {
+    color: #ffffff;
+}
+
+#cards .card-wrapper .card .card-body p {
+    color: #ffff00;
+}
+
+#bandcamp-album {
+    margin-top: 2rem;margin-bottom: 4rem;
+}
+
+#bandcamp-album h3 {
+    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
+}
+
+#bandcamp-album #bandcamp-album-player-container {
+    border: 4px solid #FFF;background-color: #333333;
+}
+
+#on-the-internet {
+    margin-top: 2rem;margin-bottom: 4rem;
+}
+
+#on-the-internet h3 {
+    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
+}
+
+#on-the-internet .btn-default {
+    font-size: 2rem;color: #ffffff;border: 4px solid #ffffff;background-color: transparent;border-radius: 0;text-transform: uppercase;min-width: 80px;
+}
+
+#on-the-internet .btn-default:hover {
+    color: #000000;background-color: #ffffff; border: 4px solid #ffffff;
+}
+
+#on-the-internet li.list-inline-item {
+    margin-bottom: .75rem;
+}
+
+#share {
+    margin-top: 2rem;margin-bottom: 4rem;
+}
+
+#share h3 {
+    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
+}
+
+#share li a.btn-default {
+    display: inline-block;margin-top: .75rem;font-size: 1.25rem;color: #000000;border: 4px solid #ffffff;background-color: #ffffff;border-radius: 0;text-transform: uppercase;min-width: 80px;text-decoration: none;
+}
+
+#share li a.btn-default:hover {
+    color: #ffffff;border: 4px solid #ffffff;background-color: #000000;
+}
+
+.modal-content {
+    color: black;
+}
+
+.modal-content a{
+    color: black;
+}
+
+.modal-content a:hover{
+    color: red;
+}
+
+nav.navbar{
+    position: fixed;bottom: 30px;right: 30px;
+}
