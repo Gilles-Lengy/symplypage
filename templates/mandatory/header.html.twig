@@ -2,5 +2,7 @@
     <h1>{{ symplyPage.pageTitle }}</h1>
     <img src="{{ asset(symplyPage.pageHeaderImageURL) }}" class="img-fluid"
          alt="{{ symplyPage.pageHeaderImageAlt }}">
+    {%  if symplyPage.pageSlogan %}
     <h2>{{ symplyPage.pageSlogan }}</h2>
+    {% endif %}
 </header>
