@@ -45,28 +45,25 @@ header img {
     border-bottom: .5rem solid var(--main-light-color);
 }
 
-header h2 {
-    padding: 1rem 2rem;background-color: blue;text-transform: uppercase;margin-bottom: 0;
-}
-
 #text {
-    margin-top: 2rem;margin-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 #text h2 {
-    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
+    text-transform: uppercase;
+    margin-bottom: .75rem;
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
 }
 
 #text p {
-    color: #333333;
-}
-
-#text p#text-signature {
-    font-style: italic;
+    color: var(--main-light-color);
 }
 
 #text p#text-signature a {
-    color: #ff0000;
+    color: var(--main-light-color);
+    text-decoration: none;
 }
 
 #text p#text-signature a:hover {
