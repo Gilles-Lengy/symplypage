@@ -70,34 +70,6 @@ header img {
     text-decoration: underline;
 }
 
-#photo {
-    margin-top: 2rem;margin-bottom: 4rem;
-}
-
-#photo h3 {
-    text-transform: uppercase;margin-bottom: .75rem;background-color: #333333;color: #000000;
-}
-
-#photo .card {
-    background-color: #FF0;border: 4px solid #FF0;
-}
-
-#photo .card .card-img-top {
-    border-bottom: 4px solid #F00;
-}
-
-#photo .card .card-body {
-    padding: 4rem;
-}
-
-#photo .card .card-body h5 {
-    color: #ff0000;
-}
-
-#photo .card .card-body p {
-    color: #fff000;
-}
-
 #video {
     margin-top: 2rem;margin-bottom: 4rem;
 }
