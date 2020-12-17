@@ -53,7 +53,8 @@ header img {
 
 #text h2 {
     text-transform: uppercase;
-    margin-bottom: .75rem;
+    padding: 1rem;
+    margin-bottom: 1.25rem;
     background-color: var(--main-light-color);
 }
 
@@ -75,14 +76,17 @@ header img {
 }
 
 #video,
-#bandcamp-album{
+#bandcamp-album,
+#cards{
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
 #video h3,
-#bandcamp-album h3{
+#bandcamp-album h3,
+#cards h3{
     text-transform: uppercase;
+    padding: 1rem;
     margin-bottom: 2rem;
     background-color: var(--main-light-color);
 }
@@ -106,52 +110,44 @@ header img {
     background-color: #333333;
 }
 
-#cards {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
-
-#cards h3 {
-    text-transform: uppercase;
-    margin-bottom: .75rem;
-    background-color: #333333;
-    color: #000000;
-}
-
 #cards .card-wrapper {
     margin-bottom: 2rem;
 }
 
 #cards .card-wrapper .card {
-    border: 4px solid #FF0;
+    border: 4px solid var(--main-light-color);
+    background-color: var(--main-dark-color);
     padding-bottom: .75rem;
     margin-bottom: 0;
 }
-
+#cards .card .card-img-top {
+    border-bottom: none;
+}
 #cards .card-wrapper .card .card-body {
-    border-top: 4px solid #FF0;
+    border-top: 4px solid var(--main-light-color);
     padding: 2rem;
 }
 
 #cards .card-wrapper .card .card-body h4 {
-    background-color: #ff0000;
+    background-color: var(--main-medium-color);
+    margin-bottom: 1.25rem;
 }
 
 #cards .card-wrapper .card .card-body h4 a {
     display: inline-block;
-    background-color: #FF8C00;
+    background-color: var(--main-medium-color);
     padding: 1rem;
     width: 100%;
     text-decoration: none;
-    color: #000000;
+    color: var(--main-light-color);
 }
 
 #cards .card-wrapper .card .card-body h4 a:hover {
-    color: #ffffff;
+    color: var(--main-dark-color);
 }
 
 #cards .card-wrapper .card .card-body p {
-    color: #ffff00;
+    color: var(--main-light-color);
 }
 
 #on-the-internet {
