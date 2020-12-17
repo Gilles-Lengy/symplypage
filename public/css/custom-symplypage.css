@@ -77,14 +77,16 @@ header img {
 
 #video,
 #bandcamp-album,
-#cards{
+#cards,
+#on-the-internet{
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
 #video h3,
 #bandcamp-album h3,
-#cards h3{
+#cards h3,
+#on-the-internet h3{
     text-transform: uppercase;
     padding: 1rem;
     margin-bottom: 2rem;
@@ -150,32 +152,20 @@ header img {
     color: var(--main-light-color);
 }
 
-#on-the-internet {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
-
-#on-the-internet h3 {
-    text-transform: uppercase;
-    margin-bottom: .75rem;
-    background-color: #333333;
-    color: #000000;
-}
-
 #on-the-internet .btn-default {
     font-size: 2rem;
-    color: #ffffff;
-    border: 4px solid #ffffff;
-    background-color: transparent;
+    color: var(--main-light-color);
+    border: 4px solid var(--main-light-color);
+    background-color: var(--main-dark-color);
     border-radius: 0;
     text-transform: uppercase;
     min-width: 80px;
 }
 
 #on-the-internet .btn-default:hover {
-    color: #000000;
-    background-color: #ffffff;
-    border: 4px solid #ffffff;
+    color: var(--main-dark-color);
+    background-color: var(--main-light-color);
+    border: 4px solid var(--main-light-color);
 }
 
 #on-the-internet li.list-inline-item {
