@@ -40,7 +40,7 @@
       "A sanctuary of sorts… Three gasmasks await… A man enters. The ritual begins..."
     ]
   ],
-  "sectionBandcampAlbumTitle": "Début Album",
+  "sectionBandcampAlbumTitle": "Debut Album",
   "sectionBandcampAlbumID": "1252927426",
   "sectionBandcampAlbumSize": "large",
   "sectionBandcampAlbumBGColor": "000000",
@@ -48,25 +48,25 @@
   "sectionBandcampAlbumHeight": "1300",
   "sectionBandcampAlbumUrl": "https://fetishground.bandcamp.com/album/a-la-recherche-de-soi-m-me",
   "sectionBandcampAlbumTitleTitle": "A la recherche de soi-même...",
-  "sectionCardTitle": "Some cards",
+  "sectionCardTitle": "EP of FETISHGROUND",
   "sectionCardData": [
     [
-      "images/card-1.png",
-      "Titre card 1",
-      "https://google.com",
-      "Texte card 1 Provinciam consulatu ianuario quod provincia sortitus habebit"
+      "images/cover_fetishground_gazmask-triology-0.jpg",
+      "Gazmask Triology 0",
+      "https://fetishground.bandcamp.com/album/gazmask-triology-0",
+      "The first EP released in march 2014 on bandcamp. This is the most experimental."
     ],
     [
-      "images/card-2.png",
-      "Titre card 2",
-      "https://qwant.com",
-      "Texte card 2 Provinciam consulatu ianuario quod provincia sortitus habebit Provinciam consulatu ianuario quod provincia sortitus habebit"
+      "images/cover_fetishground_gasmask_rising.jpg",
+      "gasmask rising",
+      "https://fetishground.bandcamp.com/album/gasmask-rising",
+      "The second EP released in july 2014 on bandcamp after the debut album. It's a dark experimental ambiant EP."
     ],
     [
-      "images/card-3.png",
-      "Titre card 3",
-      "https://bing.com",
-      "Texte card 3 Provinciam consulatu ianuario"
+      "images/cover_fetishground_fgzk_002.jpg",
+      "FGZK-002",
+      "https://fetishground.bandcamp.com/album/fgzk-002",
+      "The third EP released in february 2015 on bandcamp. It's a experimental atmospheric ambiant EP."
     ]
   ],
   "sectionVideoPlayerColor": "cccccc",
