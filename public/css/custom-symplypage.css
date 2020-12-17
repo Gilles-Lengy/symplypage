@@ -78,7 +78,8 @@ header img {
 #video,
 #bandcamp-album,
 #cards,
-#on-the-internet{
+#on-the-internet,
+#share {
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
@@ -86,7 +87,8 @@ header img {
 #video h3,
 #bandcamp-album h3,
 #cards h3,
-#on-the-internet h3{
+#on-the-internet h3,
+#share h3{
     text-transform: uppercase;
     padding: 1rem;
     margin-bottom: 2rem;
@@ -177,20 +179,14 @@ header img {
     margin-bottom: 4rem;
 }
 
-#share h3 {
-    text-transform: uppercase;
-    margin-bottom: .75rem;
-    background-color: #333333;
-    color: #000000;
-}
-
 #share li a.btn-default {
     display: inline-block;
     margin-top: .75rem;
     font-size: 1.25rem;
     color: #000000;
-    border: 4px solid #ffffff;
-    background-color: #ffffff;
+    border: 4px solid var(--main-light-color);
+    color: var(--main-light-color);
+    background-color: var(--main-dark-color);
     border-radius: 0;
     text-transform: uppercase;
     min-width: 80px;
@@ -198,9 +194,8 @@ header img {
 }
 
 #share li a.btn-default:hover {
-    color: #ffffff;
-    border: 4px solid #ffffff;
-    background-color: #000000;
+    color: var(--main-dark-color);
+    background-color: var(--main-light-color);
 }
 
 .modal-content {
