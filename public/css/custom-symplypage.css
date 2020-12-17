@@ -74,12 +74,14 @@ header img {
     color: var(--main-dark-color);
 }
 
-#video {
+#video,
+#bandcamp-album{
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
-#video h3 {
+#video h3,
+#bandcamp-album h3{
     text-transform: uppercase;
     margin-bottom: 2rem;
     background-color: var(--main-light-color);
@@ -97,6 +99,11 @@ header img {
 #video .card .card-body h5 {
     color: var(--main-dark-color);
     font-weight: bolder;
+}
+
+#bandcamp-album #bandcamp-album-player-container {
+    border: 4px solid #FFF;
+    background-color: #333333;
 }
 
 #cards {
@@ -145,23 +152,6 @@ header img {
 
 #cards .card-wrapper .card .card-body p {
     color: #ffff00;
-}
-
-#bandcamp-album {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
-
-#bandcamp-album h3 {
-    text-transform: uppercase;
-    margin-bottom: .75rem;
-    background-color: #333333;
-    color: #000000;
-}
-
-#bandcamp-album #bandcamp-album-player-container {
-    border: 4px solid #FFF;
-    background-color: #333333;
 }
 
 #on-the-internet {

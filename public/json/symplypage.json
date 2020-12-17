@@ -17,8 +17,8 @@
   "sectionOrder": [
     ["text","sectionTextTitle"],
     ["video","sectionVideoTitle"],
-    ["card","sectionCardTitle"],
     ["bandcamp-album","sectionBandcampAlbumTitle"],
+    ["card","sectionCardTitle"],
     ["on-the-internet","sectionOnTheInternetTitle"],
     ["share","sectionShareTitle"]
   ],
@@ -40,6 +40,14 @@
       "A sanctuary of sorts… Three gasmasks await… A man enters. The ritual begins..."
     ]
   ],
+  "sectionBandcampAlbumTitle": "Début Album",
+  "sectionBandcampAlbumID": "1252927426",
+  "sectionBandcampAlbumSize": "large",
+  "sectionBandcampAlbumBGColor": "000000",
+  "sectionBandcampAlbumLinkCol": "ffffff",
+  "sectionBandcampAlbumHeight": "1300",
+  "sectionBandcampAlbumUrl": "https://fetishground.bandcamp.com/album/a-la-recherche-de-soi-m-me",
+  "sectionBandcampAlbumTitleTitle": "A la recherche de soi-même...",
   "sectionCardTitle": "Some cards",
   "sectionCardData": [
     [
@@ -61,14 +69,6 @@
       "Texte card 3 Provinciam consulatu ianuario"
     ]
   ],
-  "sectionBandcampAlbumTitle": "Latest EP",
-  "sectionBandcampAlbumID": "2415776908",
-  "sectionBandcampAlbumSize": "large",
-  "sectionBandcampAlbumBGColor": "333333",
-  "sectionBandcampAlbumLinkCol": "ffffff",
-  "sectionBandcampAlbumHeight": "1069",
-  "sectionBandcampAlbumUrl": "https://musique.coeurdepirate.com/album/en-cas-de-temp-te-ce-jardin-sera-ferm",
-  "sectionBandcampAlbumTitleTitle": "En cas de tempête, ce jardin sera fermé.",
   "sectionVideoPlayerColor": "cccccc",
   "sectionOnTheInternetTitle": "More on the internet",
   "sectionOnTheInternetData": [
