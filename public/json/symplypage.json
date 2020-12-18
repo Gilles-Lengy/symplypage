@@ -2,27 +2,25 @@
   "headTitle": "ONE 0000 0001 OFFICIAL WEBSITE",
   "headDescription": "ONE 0000 0001 is a electronic musician. ONE HUMAN FACTOR, DRONOISIUM and FETISHGROUND are projects by ONE 0000 0001",
   "pageTitle": "ONE 0000 0001",
-  "pageHeaderImageURL": "images/fleshware-latex-s10-fip.jpg",
+  "pageHeaderImageURL": "images/one-0000-0001-191221-3-1080.jpg",
   "pageHeaderImageAlt": "ONE 0000 0001 portrait for the header image",
   "sectionTextTitle": "About me",
   "sectionTextP": [
-    "I started composing for this project in 2007 as Fleshware. It took me years to create the seventeen tracks of my debut album 'A la recherche de soi-même...'. I qualify this album as Oppressiv Elektro Pop.",
-    "After this album, I made some more experimental ambiant EPs.",
-    "I, as ONE 0000 0001, currently rework or make a video for each track of the album 'A la recherche de soi-même...'."
+    "I'm ONE 0000 0001. I run several experimental electronic music projects. My main project is ONE HUMAN FACTOR which is a mix of electronic music and noise. The second one is DRONOISIUM wich is a drone music project tht goes from hypnotic drone to Harsh Noise Wall. The third one is Fetishground which I started as Fleshware. The debut album is a kind of oppressive electro pop and the EPs are ambiant.",
+    "I like to make videos for my tracks.",
+    "Below, you'll find some videos and links to the websites of those projects."
   ],
   "sectionTextSignature": "ONE 0000 0001",
-  "sectionTextSignatureURL": "http://00000001.one",
   "modalMenuTitle": "Menu",
   "textLinkGoTop": "Go To the Top of this page",
   "sectionOrder": [
     ["text","sectionTextTitle"],
     ["video","sectionVideoTitle"],
-    ["bandcamp-album","sectionBandcampAlbumTitle"],
     ["card","sectionCardTitle"],
     ["on-the-internet","sectionOnTheInternetTitle"],
     ["share","sectionShareTitle"]
   ],
-  "sectionVideoTitle": "Some videos of FETISHGROUND",
+  "sectionVideoTitle": "Some videos I made",
   "sectionVideoData": [
     [
       "487738431",
