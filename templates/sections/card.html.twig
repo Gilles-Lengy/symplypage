@@ -9,10 +9,12 @@
                 {% for CardData in symplyPage.sectionCardData %}
                 <div class="col-lg-4 col-md-6 col-sm-12 card-wrapper">
                     <div class="card h-100">
+                        {% if CardData[0] %}
                         <a href="{{ CardData[2] }}" target="_blank">
                         <img class="card-img-top" src="{{ CardData[0] }}"
                              alt="{{ CardData[1] }}"/>
                         </a>
+                        {% endif %}
                         <div class="card-body">
                             <h4 class="card-title">
                                 <a href="{{ CardData[2] }}" target="_blank">

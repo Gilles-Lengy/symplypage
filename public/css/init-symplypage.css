@@ -133,6 +133,24 @@ footer {
     margin-bottom: 8rem;
 }
 
+#cards .card-wrapper .card .card-body h4 {
+    background-color: var(--main-dark-color);
+    margin-bottom: 1.25rem;
+}
+
+#cards .card-wrapper .card .card-body h4 a {
+    display: inline-block;
+    background-color: var(--main-dark-color);
+    padding: 1rem;
+    width: 100%;
+    text-decoration: none;
+    color: var(--main-light-color);
+}
+
+#cards .card-wrapper .card .card-body h4 a:hover {
+    background-color: var(--main-medium-color);
+}
+
 #bandcamp-album #bandcamp-album-player-container {
     border: 4px solid #FFF;
     background-color: #333333;
