@@ -197,6 +197,18 @@ header img {
     color: var(--main-dark-color);
     background-color: var(--main-light-color);
 }
+footer{
+    border-top: .5rem solid var(--main-light-color);
+}footer{
+    border-top: .5rem solid var(--main-light-color);
+}
+footer p{
+    margin-top: 4rem;
+}
+footer p,
+footer p a{
+    color: var(--main-light-color);
+}
 
 .modal-content {
     color: black;
