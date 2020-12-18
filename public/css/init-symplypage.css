@@ -140,6 +140,7 @@ footer {
 
 #cards .card-wrapper .card .card-body h4 a {
     display: inline-block;
+    border: 4px solid var(--main-dark-color);
     background-color: var(--main-dark-color);
     padding: 1rem;
     width: 100%;
@@ -148,7 +149,8 @@ footer {
 }
 
 #cards .card-wrapper .card .card-body h4 a:hover {
-    background-color: var(--main-medium-color);
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
 }
 
 #photo .card-img-top {
