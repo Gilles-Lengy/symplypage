@@ -1,17 +1,17 @@
 {
   "headTitle": "ONE 0000 0001 OFFICIAL WEBSITE",
-  "headDescription": "ONE 0000 0001 is a electronic musician. ONE HUMAN FACTOR, DRONOISIUM and FETISHGROUND are projects by ONE 0000 0001",
+  "headDescription": "ONE 0000 0001 is a electronic musician. On this website, ONE 0000 0001 presents his projects : ONE HUMAN FACTOR, DRONOISIUM and FETISHGROUND. You'll also find some videos and photos",
   "pageTitle": "ONE 0000 0001",
-  "pageHeaderImageURL": "images/one-0000-0001-191221-3-1080.jpg",
+  "pageHeaderImageURL": "images/one-180310-01-sticker-creil.jpg",
   "pageHeaderImageAlt": "ONE 0000 0001 portrait for the header image",
   "sectionTextTitle": "About me",
   "sectionTextP": [
-    "I'm ONE 0000 0001. I run several experimental electronic music projects. My main project is ONE HUMAN FACTOR which is a mix of electronic music and noise. The second one is DRONOISIUM wich is a drone music project tht goes from hypnotic drone to Harsh Noise Wall. The third one is Fetishground which I started as Fleshware. The debut album is a kind of oppressive electro pop and the EPs are ambiant.",
-    "I like to make videos for my tracks.",
-    "Below, you'll find some videos and links to the websites of those projects."
+    "I'm ONE 0000 0001. I run several experimental electronic music projects. My main project is ONE HUMAN FACTOR which is a mix of electronic music and noise. The second one is DRONOISIUM wich is a drone music project that goes from hypnotic Drone to Harsh Noise Wall. The third one is Fetishground which I started as Fleshware. The debut album of FETISHGROUND is a kind of oppressive electro pop and the EPs are experimental ambiant.",
+    "I like to make videos for my tracks. You'll find a lot of them on my vimeo, the link is at the bottom of this page.",
+    "Below, you'll find some videos and links to the websites of my projects."
   ],
   "sectionTextSignature": "ONE 0000 0001",
-  "modalMenuTitle": "Menu",
+  "modalMenuTitle": "Navigation",
   "textLinkGoTop": "Go To the Top of this page",
   "sectionOrder": [
     ["text","sectionTextTitle"],
