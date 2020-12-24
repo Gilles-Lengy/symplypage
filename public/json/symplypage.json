@@ -1,4 +1,5 @@
 {
+  "urlWebSite": "http://00000001.one",
   "headTitle": "ONE 0000 0001 OFFICIAL WEBSITE",
   "headDescription": "ONE 0000 0001 is a electronic musician. On this website, ONE 0000 0001 presents his projects : ONE HUMAN FACTOR, DRONOISIUM and FETISHGROUND. You'll also find some videos and photos",
   "pageTitle": "ONE 0000 0001",
@@ -110,6 +111,7 @@
   ],
   "sectionShareTitle" : "Love it ? Hate it ? Share it !",
   "textShareLinkFacebook" : "Share on Facebook",
+  "imageShareLinkTwitter" : "/images/one-180310-01-sticker-creil-250-180.jpg",
   "textShareLinkTwitter" : "Share on Twitter",
   "viaShareLinkTwitter" : "00000001One",
   "footerSentence": "Proudly made by ",

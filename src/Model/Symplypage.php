@@ -6,6 +6,7 @@ namespace App\Model;
 
 class Symplypage
 {
+    private $urlWebSite;
     private $headTitle;
     private $headDescription;
     private $pageTitle;
@@ -39,6 +40,7 @@ class Symplypage
     private $sectionOnTheInternetData;
     private $sectionShareTitle;
     private $textShareLinkFacebook;
+    private $imageShareLinkTwitter;
     private $textShareLinkTwitter;
     private $viaShareLinkTwitter;
     private $footerSentence;
@@ -47,6 +49,22 @@ class Symplypage
     private $cookieAlertText;
     private $cookieAlertLearnMore;
     private $cookieAlertAgree;
+
+    /**
+     * @return mixed
+     */
+    public function getUrlWebSite()
+    {
+        return $this->urlWebSite;
+    }
+
+    /**
+     * @param mixed $urlWebSite
+     */
+    public function setUrlWebSite($urlWebSite): void
+    {
+        $this->urlWebSite = $urlWebSite;
+    }
 
     /**
      * @return mixed
@@ -582,6 +600,22 @@ class Symplypage
     public function setTextShareLinkFacebook($textShareLinkFacebook): void
     {
         $this->textShareLinkFacebook = $textShareLinkFacebook;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImageShareLinkTwitter()
+    {
+        return $this->imageShareLinkTwitter;
+    }
+
+    /**
+     * @param mixed $imageShareLinkTwitter
+     */
+    public function setImageShareLinkTwitter($imageShareLinkTwitter): void
+    {
+        $this->imageShareLinkTwitter = $imageShareLinkTwitter;
     }
 
     /**
