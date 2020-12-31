@@ -1,0 +1,96 @@
+{
+  "urlWebSite": "https://fetishground.one",
+  "headTitle": "FETISHGROUND OFFICIAL WEBSITE",
+  "headDescription": "FETISHGROUND is a electronic music project by ONE 0000 0001",
+  "pageTitle": "FETISHGROUND",
+  "pageHeaderImageURL": "images/fleshware-latex-s10-fip.jpg",
+  "pageHeaderImageAlt": "Fleshware with a gasmask for the header image",
+  "sectionTextTitle": "About FETISHGROUND",
+  "sectionTextP": [
+    "I started composing for this project in 2007 as Fleshware. It took me years to create the seventeen tracks of my debut album 'A la recherche de soi-même...'. I qualify this album as Oppressiv Elektro Pop.",
+    "After this album, I made some more experimental ambiant EPs.",
+    "I, as ONE 0000 0001, currently rework or make a video for each track of the album 'A la recherche de soi-même...'."
+  ],
+  "sectionTextSignature": "ONE 0000 0001",
+  "sectionTextSignatureURL": "http://00000001.one",
+  "modalMenuTitle": "Menu",
+  "textLinkGoTop": "Go To the Top of this page",
+  "sectionOrder": [
+    ["text","sectionTextTitle"],
+    ["video","sectionVideoTitle"],
+    ["bandcamp-album","sectionBandcampAlbumTitle"],
+    ["card","sectionCardTitle"],
+    ["on-the-internet","sectionOnTheInternetTitle"],
+    ["share","sectionShareTitle"]
+  ],
+  "sectionVideoTitle": "Some videos of FETISHGROUND",
+  "sectionVideoData": [
+    [
+      "487738431",
+      "GP5 und Rubber - VHS Edit",
+      "VHS EDIT version of the video for the track \"GP5 und Rubber\" by ONE 0000 0001."
+    ],
+    [
+      "120271657",
+      "FGZK-002A",
+      "Abandoned gazmask on the field... What's going to happen ?"
+    ],
+    [
+      "54656776",
+      "Gas Mask Ritual",
+      "A sanctuary of sorts… Three gasmasks await… A man enters. The ritual begins..."
+    ]
+  ],
+  "sectionVideoPlayerColor": "000000",
+  "sectionBandcampAlbumTitle": "Debut Album",
+  "sectionBandcampAlbumID": "1252927426",
+  "sectionBandcampAlbumSize": "large",
+  "sectionBandcampAlbumBGColor": "000000",
+  "sectionBandcampAlbumLinkCol": "ffffff",
+  "sectionBandcampAlbumHeight": "1300",
+  "sectionBandcampAlbumUrl": "https://fetishground.bandcamp.com/album/a-la-recherche-de-soi-m-me",
+  "sectionBandcampAlbumTitleTitle": "A la recherche de soi-même...",
+  "sectionCardTitle": "EPs of FETISHGROUND",
+  "sectionCardData": [
+    [
+      "images/cover_fetishground_gazmask-triology-0.jpg",
+      "Gazmask Triology 0",
+      "https://fetishground.bandcamp.com/album/gazmask-triology-0",
+      "The first EP released in march 2014 on bandcamp. This is the most experimental."
+    ],
+    [
+      "images/cover_fetishground_gasmask_rising.jpg",
+      "gasmask rising",
+      "https://fetishground.bandcamp.com/album/gasmask-rising",
+      "The second EP released in july 2014 on bandcamp after the debut album. It's a dark experimental ambiant EP."
+    ],
+    [
+      "images/cover_fetishground_fgzk_002.jpg",
+      "FGZK-002",
+      "https://fetishground.bandcamp.com/album/fgzk-002",
+      "The third EP released in february 2015 on bandcamp. It's a experimental atmospheric ambiant EP."
+    ]
+  ],
+  "sectionOnTheInternetTitle": "More on the web",
+  "sectionOnTheInternetData": [
+    [
+      "youtube",
+      "https://www.youtube.com/results?search_query=fetishground"
+    ],
+    [
+      "vimeo",
+      "https://vimeo.com/search?q=fetishground"
+    ]
+  ],
+  "sectionShareTitle" : "Love it ? Hate it ? Share it !",
+  "textShareLinkFacebook" : "Share on Facebook",
+  "imageShareLinkTwitter" : "images/fleshware-latex-s10-fip-1024-512.jpg",
+  "textShareLinkTwitter" : "Share on Twitter",
+  "viaShareLinkTwitter" : "00000001One",
+  "footerSentence": "Proudly made by ",
+  "footerUrl": "http://00000001.one",
+  "footerUrlTitle": "ONE 0000 0001",
+  "cookieAlertText" : "Cookies are used on this website to ensure you get the best experience.",
+  "cookieAlertLearnMore" : "Learn more.",
+  "cookieAlertAgree" : "I agree"
+}

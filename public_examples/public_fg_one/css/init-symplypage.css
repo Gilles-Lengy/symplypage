@@ -1,0 +1,283 @@
+:root {
+    --main-dark-color: #000;
+}
+
+:root {
+    --main-medium-color: #4A4A4A;
+}
+
+:root {
+    --main-light-color: #fff;
+}
+
+:root {
+    --main-light-font-weight: 123;
+}
+
+:root {
+    --main-medium-font-weight: 400;
+}
+
+:root {
+    --main-strong-font-weight: 900;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: var(--main-light-font-weight);
+    background-color: var(--main-dark-color);
+    color: var(--main-dark-color);
+    text-align: center;
+}
+
+a {
+    color: var(--main-light-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--main-medium-color);
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.card {
+    color: #000;
+    background-color: var(--main-light-color);
+    border: 4px solid var(--main-light-color);
+    border-radius: 0;
+}
+
+.card .card-body {
+    padding: 2rem;
+}
+
+.card .card-body h5 {
+    color: var(--main-dark-color);
+    font-size: 1.5rem;
+    font-weight: var(--main-strong-font-weight);
+}
+
+.card .card-body p {
+    color: var(--main-dark-color);
+    font-size: 1.25rem;
+}
+
+.btn-default {
+    font-size: 2rem;
+    color: var(--main-light-color);
+    border: 4px solid var(--main-light-color);
+    background-color: var(--main-dark-color);
+    border-radius: 0;
+    text-transform: uppercase;
+    min-width: 80px;
+}
+
+.btn-default:hover {
+    color: var(--main-dark-color);
+    background-color: var(--main-light-color);
+}
+
+header {
+    margin-top: 0;
+    margin-bottom: 14rem;
+    background-color: var(--main-dark-color);
+}
+
+header h1 {
+    padding: 2rem;
+    margin-bottom: 0;
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    font-size: 4rem;
+    font-weight: var(--main-strong-font-weight);
+    text-transform: uppercase;
+}
+
+header img {
+    width: 100%;
+    border-top: .5rem solid var(--main-light-color);
+    border-bottom: .5rem solid var(--main-light-color);
+}
+
+#text {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+#text h2 {
+    text-transform: uppercase;
+    font-weight: var(--main-strong-font-weight);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: var(--main-light-color);
+}
+
+#text p {
+    color: var(--main-light-color);
+}
+
+#text p#text-signature {
+    font-weight: var(--main-strong-font-weight);
+}
+
+#text p#text-signature a {
+    color: var(--main-light-color);
+    text-decoration: none;
+}
+
+#text p#text-signature a:hover {
+    text-decoration: underline;
+}
+
+#text,
+#video,
+#photo,
+#card,
+#bandcamp-album,
+#on-the-internet,
+#share,
+footer {
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+#card .card-wrapper {
+    margin-bottom: 2rem;
+}
+
+#card .card-wrapper .card .card-body h4 {
+    background-color: var(--main-dark-color);
+
+}
+
+#card .card-wrapper .card .card-body h4 a {
+    display: inline-block;
+    border: 4px solid var(--main-dark-color);
+    background-color: var(--main-dark-color);
+    padding: 1rem;
+    width: 100%;
+    text-decoration: none;
+    color: var(--main-light-color);
+}
+
+#card .card-wrapper .card .card-body h4 a:hover {
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
+}
+
+#photo .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#bandcamp-album #bandcamp-album-player-container {
+    border: 4px solid #FFF;
+    background-color: #333333;
+}
+
+#share li a.btn-default {
+    display: inline-block;
+    margin-top: .75rem;
+    font-size: 1.25rem;
+    border: 4px solid var(--main-light-color);
+    background-color: var(--main-dark-color);
+    border-radius: 0;
+    text-transform: uppercase;
+    min-width: 80px;
+    text-decoration: none;
+}
+
+#share li a.btn-default:hover {
+    color: var(--main-dark-color);
+    background-color: var(--main-light-color);
+}
+
+#video h3,
+#bandcamp-album h3,
+#card h3,
+#photo h3,
+#on-the-internet h3,
+#share h3 {
+    text-transform: uppercase;
+    font-weight: var(--main-strong-font-weight);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: var(--main-light-color);
+}
+
+footer {
+    border-top: .5rem solid var(--main-light-color);
+}
+
+footer {
+    border-top: .5rem solid var(--main-light-color);
+}
+
+footer p {
+    margin-top: 4rem;
+}
+
+footer p,
+footer p a,
+footer p a:hover {
+    color: var(--main-light-color);
+}
+
+.modal-content {
+    background-color: var(--main-dark-color);
+    color: var(--main-light-color);
+    border: 4px solid var(--main-light-color);
+    border-radius: 0;
+}
+
+.modal-header {
+    border-bottom: 4px solid var(--main-light-color);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.close {
+    color: var(--main-light-color);
+    text-shadow: none;
+    opacity: 1;
+}
+
+.close:hover {
+    color: var(--main-medium-color);
+}
+
+.modal-content ul {
+    list-style-type: none;
+}
+
+.modal-content li {
+    padding: .5rem 0;
+}
+
+.modal-content li a {
+    font-size: 1.25rem;
+    color: var(--main-light-color);
+    text-decoration: none;
+}
+
+.modal-content li a:hover {
+    color: var(--main-medium-color);
+}
+
+nav.navbar {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+.navbar-dark .navbar-toggler {
+    color: var(--main-light-color);
+    border: 4px solid var(--main-light-color);
+    border-radius: 0;
+    background-color: var(--main-dark-color);
+}
