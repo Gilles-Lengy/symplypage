@@ -146,9 +146,13 @@ footer {
     margin-bottom: 8rem;
 }
 
+#card .card-wrapper {
+    margin-bottom: 1.25rem;
+}
+
 #card .card-wrapper .card .card-body h4 {
     background-color: var(--main-dark-color);
-    margin-bottom: 1.25rem;
+
 }
 
 #card .card-wrapper .card .card-body h4 a {
