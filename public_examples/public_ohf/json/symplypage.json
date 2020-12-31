@@ -1,139 +1,122 @@
 {
-  "headTitle": "ONE HUMAN FACTOR OFFICIAL WEBSITE",
-  "headDescription": "ONE HUMAN FACTOR is an noisy electronic music project by ONE 0000 0001",
-  "pageTitle": "ONE HUMAN FACTOR",
-  "pageHeaderImageURL": "images/header-image.jpg",
-  "pageHeaderImageAlt": "Fleshware with a gasmask for the header image",
-  "pageSlogan": "A wonderful slogan for my symplypage",
-  "sectionTextTitle": "The text title of the page",
+  "urlWebSite": "http://00000001.one",
+  "headTitle": "ONE 0000 0001 OFFICIAL WEBSITE",
+  "headDescription": "ONE 0000 0001 is a electronic musician. On this website, ONE 0000 0001 presents his projects : ONE HUMAN FACTOR, DRONOISIUM and FETISHGROUND. You'll also find some videos and photos",
+  "pageTitle": "ONE 0000 0001",
+  "pageHeaderImageURL": "images/one-180310-01-sticker-creil.jpg",
+  "pageHeaderImageAlt": "ONE 0000 0001 portrait for the header image",
+  "sectionTextTitle": "About me",
   "sectionTextP": [
-    "Iam in altera philosophiae parte. quae est quaerendi ac disserendi, quae logikh dicitur, iste vester plane, ut mihi quidem videtur, inermis ac nudus est. tollit definitiones, nihil de dividendo ac partiendo docet, non quo modo efficiatur concludaturque ratio tradit, non qua via captiosa solvantur ambigua distinguantur ostendit; iudicia rerum in sensibus ponit, quibus si semel aliquid falsi pro vero probatum sit, sublatum esse omne iudicium veri et falsi putat.",
-    "Cognitis enim pilatorum caesorumque funeribus nemo deinde ad has stationes appulit navem, sed ut Scironis praerupta letalia declinantes litoribus Cypriis contigui navigabant, quae Isauriae scopulis sunt controversa."
+    "I'm ONE 0000 0001. I run several experimental electronic music projects. My main project is ONE HUMAN FACTOR which is a mix of electronic music and noise. The second one is DRONOISIUM wich is a drone music project that goes from hypnotic Drone to Harsh Noise Wall. The third one is Fetishground which I started as Fleshware. The debut album of FETISHGROUND is a kind of oppressive electro pop and the EPs are experimental ambiant.",
+    "I like to make videos for my tracks. You'll find a lot of them on my vimeo, the link is at the bottom of this page.",
+    "Below, you'll find some videos and links to the websites of my projects."
   ],
-  "sectionTextSignature": "Gilles Lengy",
-  "sectionTextSignatureURL": "https://github.com/Gilles-Lengy",
-  "modalMenuTitle": "Menu",
+  "sectionTextSignature": "ONE 0000 0001",
+  "modalMenuTitle": "Navigation",
   "textLinkGoTop": "Go To the Top of this page",
   "sectionOrder": [
     ["text","sectionTextTitle"],
-    ["photo","sectionPhotoTitle"],
     ["video","sectionVideoTitle"],
     ["card","sectionCardTitle"],
-    ["bandcamp-album","sectionBandcampAlbumTitle"],
+    ["photo","sectionPhotoTitle"],
     ["on-the-internet","sectionOnTheInternetTitle"],
     ["share","sectionShareTitle"]
   ],
-  "sectionVideoTitle": "Some videos I like",
+  "sectionVideoTitle": "Some videos I made",
   "sectionVideoData": [
     [
-      "407147635",
-      "Titre video 1",
-      "Texte video 1 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu."
+      "256272740",
+      "[O.H.F] Blue sky latex",
+      "The official video of \"Blue sky latex\""
     ],
     [
-      "393634761",
-      "Titre video 2",
-      "Texte video 2 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu."
+      "164801568",
+      "FetishGround / S10 und Latex /",
+      "Fleshware filmed by X-Girl while wearing a S10 gasmask and a latex suit..."
     ],
     [
-      "334092219",
-      "Titre video 3",
-      "Texte video 3 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu."
+      "119576754",
+      "DRONOISIUM / DRONIX-1-130623",
+      "Robomatix Rebirth (ONE 0000 0001 pseudo at the time) in an improvisation durind his Dronix period... This track is quiet different from the others recorded during this period."
     ],
     [
-      "311983548",
-      "Titre video 3",
-      "Texte image 1"
-    ],
-    [
-      "407147635",
-      "Titre video 4",
-      "Texte video 4 Provinciam consulatu ianuario quod provincia sortitus habebit nascetur Sortietur sortiri diem non absurdum ianuario consulatu."
+      "386555560",
+      "[O.H.F][LIVE] GAM2K19 FX Edit",
+      "ONE HUMAN FACTOR live @ La Grange à Musique on the charity event \"Les rockeurs ont du coeur\" 2019."
     ]
   ],
-  "sectionPhotoTitle": "Some photos I like",
-  "sectionPhotoData": [
-    [
-      "images/image-1.png",
-      "Titre image 1",
-      "Texte image 1 Provinciam consulatu ianuario quod provincia sortitus habebit"
-    ],
-    [
-      "images/image-2.png",
-      "Titre image 2",
-      "Texte image 2 Provinciam consulatu ianuario quod provincia sortitus habebit"
-    ],
-    [
-      "images/image-3.png",
-      "Titre image 3",
-      "Texte image 3 Provinciam consulatu ianuario quod provincia sortitus habebit"
-    ],
-    [
-      "images/image-4.png",
-      "Titre image 4",
-      "Texte image 4 Provinciam consulatu ianuario quod provincia sortitus habebit"
-    ]
-  ],
-  "sectionCardTitle": "Some cards",
+  "sectionVideoPlayerColor": "000000",
+  "sectionCardTitle": "My projects",
   "sectionCardData": [
     [
-      "images/card-1.png",
-      "Titre card 1",
-      "https://google.com",
-      "Texte card 1 Provinciam consulatu ianuario quod provincia sortitus habebit"
+      "",
+      "ONE HUMAN FACTOR",
+      "http://01010101.one",
+      "ONE HUMAN FACTOR is my main project. I started it under the name of \"ONE\". Many years later, It became \"ONE HUMAN FACTOR\". It's mainly a live project with a lot of improvisions. The tracks are based on noise on beats."
     ],
     [
-      "images/card-2.png",
-      "Titre card 2",
-      "https://qwant.com",
-      "Texte card 2 Provinciam consulatu ianuario quod provincia sortitus habebit Provinciam consulatu ianuario quod provincia sortitus habebit"
+      "",
+      "DRONOISIUM",
+      "http://dronoisium.xyz",
+      "DRONOISIUM is a total different project. No beats, mainly long sounds that evolve slowly. From hypnotic drones to immersive HNW."
     ],
     [
-      "images/card-3.png",
-      "Titre card 3",
-      "https://bing.com",
-      "Texte card 3 Provinciam consulatu ianuario"
+      "",
+      "FETISHGROUND",
+      "https://ortf.tv",
+      "A project with a lot of gasmask in the videos ! I worked very hard and during a long period of time, every Sunday for a few years, to make the seventeen tracks of the debut album."
     ]
   ],
-  "sectionBandcampAlbumTitle": "Latest EP",
-  "sectionBandcampAlbumID": "2415776908",
-  "sectionBandcampAlbumSize": "large",
-  "sectionBandcampAlbumBGColor": "333333",
-  "sectionBandcampAlbumLinkCol": "ffffff",
-  "sectionBandcampAlbumHeight": "1069",
-  "sectionBandcampAlbumUrl": "https://musique.coeurdepirate.com/album/en-cas-de-temp-te-ce-jardin-sera-ferm",
-  "sectionBandcampAlbumTitleTitle": "En cas de tempête, ce jardin sera fermé.",
-  "sectionVideoPlayerColor": "cccccc",
-  "sectionOnTheInternetTitle": "More on the internet",
-  "sectionOnTheInternetData": [
+  "sectionPhotoTitle": "Some photos of me",
+  "sectionPhotoData": [
     [
-      "youtube",
-      "https://youtube.com"
+      "images/ohf-181208-horloge-tracy-by-laurent-t-002.jpg",
+      "Live @ L'Horloge of Tracy, on the 08/12/2018",
+      "Photo : Laurent-T"
     ],
     [
-      "vimeo",
-      "https://vimeo.com"
+      "images/ohf-181208-horloge-tracy-by-zelda-m-002.jpg",
+      "Live @ L'Horloge of Tracy, on the 08/12/2018",
+      "Photo : Zelda"
+    ],
+    [
+      "images/one-human-factor-novation-camera-v-191128.jpg",
+      "With the Novation Circuit",
+      "Photo : myself"
+    ],
+    [
+      "images/ohf-roc-gam-2k19-1221-by-laurent-t-04-1500.jpg",
+      "Live @ GAM of Creil, on the 21/12/2019",
+      "Photo : Laurent-T"
+    ]
+  ],
+  "sectionOnTheInternetTitle": "More on the web",
+  "sectionOnTheInternetData": [
+    [
+      "tumblr",
+      "https://one00000001.tumblr.com/"
     ],
     [
       "twitter",
-      "https://twitter.com"
+      "https://twitter.com/00000001One"
     ],
     [
       "instagram",
-      "https://www.instagram.com/"
+      "https://www.instagram.com/one_00000001/"
     ],
     [
-      "facebook",
-      "https://facebook.com"
+      "vimeo",
+      "https://vimeo.com/one00000001"
     ]
   ],
-  "sectionShareTitle" : "Love it ? Share it !",
+  "sectionShareTitle" : "Love it ? Hate it ? Share it !",
   "textShareLinkFacebook" : "Share on Facebook",
+  "imageShareLinkTwitter" : "/images/one-180310-01-sticker-creil-1024-512.jpg",
   "textShareLinkTwitter" : "Share on Twitter",
-  "viaShareLinkTwitter" : "gilleslengy",
+  "viaShareLinkTwitter" : "00000001One",
   "footerSentence": "Proudly made by ",
-  "footerUrl": "https://github.com/Gilles-Lengy",
-  "footerUrlTitle": "Gilles Lengy",
+  "footerUrl": "http://00000001.one",
+  "footerUrlTitle": "ONE 0000 0001",
   "cookieAlertText" : "Cookies are used on this website to ensure you get the best experience.",
   "cookieAlertLearnMore" : "Learn more.",
   "cookieAlertAgree" : "I agree"
