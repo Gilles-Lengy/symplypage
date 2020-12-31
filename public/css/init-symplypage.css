@@ -49,7 +49,6 @@ p {
     background-color: var(--main-light-color);
     border: 4px solid var(--main-light-color);
     border-radius: 0;
-    margin-bottom: 4rem;
 }
 
 .card .card-body {
@@ -147,7 +146,7 @@ footer {
 }
 
 #card .card-wrapper {
-    margin-bottom: 1.25rem;
+    margin-bottom: 2rem;
 }
 
 #card .card-wrapper .card .card-body h4 {
