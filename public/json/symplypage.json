@@ -1,117 +1,90 @@
 {
-  "urlWebSite": "http://00000001.one",
-  "headTitle": "ONE 0000 0001 OFFICIAL WEBSITE",
-  "headDescription": "ONE 0000 0001 is a electronic musician. On this website, ONE 0000 0001 presents his projects : ONE HUMAN FACTOR, DRONOISIUM and FETISHGROUND. You'll also find some videos and photos",
-  "pageTitle": "ONE 0000 0001",
-  "pageHeaderImageURL": "images/one-180310-01-sticker-creil.jpg",
-  "pageHeaderImageAlt": "ONE 0000 0001 portrait for the header image",
-  "sectionTextTitle": "About me",
+  "urlWebSite": "https://fetishground.one",
+  "headTitle": "FETISHGROUND OFFICIAL WEBSITE",
+  "headDescription": "FETISHGROUND is a electronic music project by ONE 0000 0001",
+  "pageTitle": "FETISHGROUND",
+  "pageHeaderImageURL": "images/fleshware-latex-s10-fip.jpg",
+  "pageHeaderImageAlt": "Fleshware with a gasmask for the header image",
+  "sectionTextTitle": "About FETISHGROUND",
   "sectionTextP": [
-    "I'm ONE 0000 0001. I run several experimental electronic music projects. My main project is ONE HUMAN FACTOR which is a mix of electronic music and noise. The second one is DRONOISIUM wich is a drone music project that goes from hypnotic Drone to Harsh Noise Wall. The third one is Fetishground which I started as Fleshware. The debut album of FETISHGROUND is a kind of oppressive electro pop and the EPs are experimental ambiant.",
-    "I like to make videos for my tracks. You'll find a lot of them on my vimeo, the link is at the bottom of this page.",
-    "Below, you'll find some videos and links to the websites of my projects."
+    "I started composing for this project in 2007 as Fleshware. It took me years to create the seventeen tracks of my debut album 'A la recherche de soi-même...'. I qualify this album as Oppressiv Elektro Pop.",
+    "After this album, I made some more experimental ambiant EPs.",
+    "I, as ONE 0000 0001, currently rework or make a video for each track of the album 'A la recherche de soi-même...'."
   ],
   "sectionTextSignature": "ONE 0000 0001",
-  "modalMenuTitle": "Navigation",
+  "sectionTextSignatureURL": "http://00000001.one",
+  "modalMenuTitle": "Menu",
   "textLinkGoTop": "Go To the Top of this page",
   "sectionOrder": [
     ["text","sectionTextTitle"],
     ["video","sectionVideoTitle"],
+    ["bandcamp-album","sectionBandcampAlbumTitle"],
     ["card","sectionCardTitle"],
-    ["photo","sectionPhotoTitle"],
     ["on-the-internet","sectionOnTheInternetTitle"],
     ["share","sectionShareTitle"]
   ],
-  "sectionVideoTitle": "Some videos I made",
+  "sectionVideoTitle": "Some videos of FETISHGROUND",
   "sectionVideoData": [
     [
-      "256272740",
-      "[O.H.F] Blue sky latex",
-      "The official video of \"Blue sky latex\""
+      "487738431",
+      "GP5 und Rubber - VHS Edit",
+      "VHS EDIT version of the video for the track \"GP5 und Rubber\" by ONE 0000 0001."
     ],
     [
-      "164801568",
-      "FetishGround / S10 und Latex /",
-      "Fleshware filmed by X-Girl while wearing a S10 gasmask and a latex suit..."
+      "120271657",
+      "FGZK-002A",
+      "Abandoned gazmask on the field... What's going to happen ?"
     ],
     [
-      "119576754",
-      "DRONOISIUM / DRONIX-1-130623",
-      "Robomatix Rebirth (ONE 0000 0001 pseudo at the time) in an improvisation durind his Dronix period... This track is quiet different from the others recorded during this period."
-    ],
-    [
-      "386555560",
-      "[O.H.F][LIVE] GAM2K19 FX Edit",
-      "ONE HUMAN FACTOR live @ La Grange à Musique on the charity event \"Les rockeurs ont du coeur\" 2019."
+      "54656776",
+      "Gas Mask Ritual",
+      "A sanctuary of sorts… Three gasmasks await… A man enters. The ritual begins..."
     ]
   ],
   "sectionVideoPlayerColor": "000000",
-  "sectionCardTitle": "My projects",
+  "sectionBandcampAlbumTitle": "Debut Album",
+  "sectionBandcampAlbumID": "1252927426",
+  "sectionBandcampAlbumSize": "large",
+  "sectionBandcampAlbumBGColor": "000000",
+  "sectionBandcampAlbumLinkCol": "ffffff",
+  "sectionBandcampAlbumHeight": "1300",
+  "sectionBandcampAlbumUrl": "https://fetishground.bandcamp.com/album/a-la-recherche-de-soi-m-me",
+  "sectionBandcampAlbumTitleTitle": "A la recherche de soi-même...",
+  "sectionCardTitle": "EPs of FETISHGROUND",
   "sectionCardData": [
     [
-      "",
-      "ONE HUMAN FACTOR",
-      "http://01010101.one",
-      "ONE HUMAN FACTOR is my main project. I started it under the name of \"ONE\". Many years later, It became \"ONE HUMAN FACTOR\". It's mainly a live project with a lot of improvisions. The tracks are based on noise on beats."
+      "images/cover_fetishground_gazmask-triology-0.jpg",
+      "Gazmask Triology 0",
+      "https://fetishground.bandcamp.com/album/gazmask-triology-0",
+      "The first EP released in march 2014 on bandcamp. This is the most experimental."
     ],
     [
-      "",
-      "DRONOISIUM",
-      "http://dronoisium.xyz",
-      "DRONOISIUM is a total different project. No beats, mainly long sounds that evolve slowly. From hypnotic drones to immersive HNW."
+      "images/cover_fetishground_gasmask_rising.jpg",
+      "gasmask rising",
+      "https://fetishground.bandcamp.com/album/gasmask-rising",
+      "The second EP released in july 2014 on bandcamp after the debut album. It's a dark experimental ambiant EP."
     ],
     [
-      "",
-      "FETISHGROUND",
-      "https://ortf.tv",
-      "A project with a lot of gasmask in the videos ! I worked very hard and during a long period of time, every Sunday for a few years, to make the seventeen tracks of the debut album."
-    ]
-  ],
-  "sectionPhotoTitle": "Some photos of me",
-  "sectionPhotoData": [
-    [
-      "images/ohf-181208-horloge-tracy-by-laurent-t-002.jpg",
-      "Live @ L'Horloge of Tracy, on the 08/12/2018",
-      "Photo : Laurent-T"
-    ],
-    [
-      "images/ohf-181208-horloge-tracy-by-zelda-m-002.jpg",
-      "Live @ L'Horloge of Tracy, on the 08/12/2018",
-      "Photo : Zelda"
-    ],
-    [
-      "images/one-human-factor-novation-camera-v-191128.jpg",
-      "With the Novation Circuit",
-      "Photo : myself"
-    ],
-    [
-      "images/ohf-roc-gam-2k19-1221-by-laurent-t-04-1500.jpg",
-      "Live @ GAM of Creil, on the 21/12/2019",
-      "Photo : Laurent-T"
+      "images/cover_fetishground_fgzk_002.jpg",
+      "FGZK-002",
+      "https://fetishground.bandcamp.com/album/fgzk-002",
+      "The third EP released in february 2015 on bandcamp. It's a experimental atmospheric ambiant EP."
     ]
   ],
   "sectionOnTheInternetTitle": "More on the web",
   "sectionOnTheInternetData": [
     [
-      "tumblr",
-      "https://one00000001.tumblr.com/"
-    ],
-    [
-      "twitter",
-      "https://twitter.com/00000001One"
-    ],
-    [
-      "instagram",
-      "https://www.instagram.com/one_00000001/"
+      "youtube",
+      "https://www.youtube.com/results?search_query=fetishground"
     ],
     [
       "vimeo",
-      "https://vimeo.com/one00000001"
+      "https://vimeo.com/search?q=fetishground"
     ]
   ],
   "sectionShareTitle" : "Love it ? Hate it ? Share it !",
   "textShareLinkFacebook" : "Share on Facebook",
-  "imageShareLinkTwitter" : "/images/one-180310-01-sticker-creil-1024-512.jpg",
+  "imageShareLinkTwitter" : "images/fleshware-latex-s10-fip-1024-512.jpg",
   "textShareLinkTwitter" : "Share on Twitter",
   "viaShareLinkTwitter" : "00000001One",
   "footerSentence": "Proudly made by ",
