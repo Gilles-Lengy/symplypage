@@ -14,29 +14,67 @@
   "modalMenuTitle": "Menu",
   "textLinkGoTop": "Go To the Top of this page",
   "sectionOrder": [
-    ["text","sectionTextTitle"],
-    ["video","sectionVideoTitle"],
-    ["bandcamp-album","sectionBandcampAlbumTitle"],
-    ["card","sectionCardTitle"],
-    ["on-the-internet","sectionOnTheInternetTitle"],
-    ["share","sectionShareTitle"]
+    [
+      "text",
+      "sectionTextTitle"
+    ],
+    [
+      "video",
+      "sectionVideoTitle"
+    ],
+    [
+      "bandcamp-album",
+      "sectionBandcampAlbumTitle"
+    ],
+    [
+      "card",
+      "sectionCardTitle"
+    ],
+    [
+      "on-the-internet",
+      "sectionOnTheInternetTitle"
+    ],
+    [
+      "share",
+      "sectionShareTitle"
+    ]
   ],
   "sectionVideoTitle": "Some videos of FETISHGROUND",
   "sectionVideoData": [
     [
-      "487738431",
-      "GP5 und Rubber - VHS Edit",
-      "VHS EDIT version of the video for the track \"GP5 und Rubber\" by ONE 0000 0001."
+      "492851623",
+      "HNW / Official Version",
+      "The official version of the video of the Dronoisium track \"HNW\""
     ],
     [
-      "120271657",
-      "FGZK-002A",
-      "Abandoned gazmask on the field... What's going to happen ?"
+      "369896748",
+      "Pulsations-001 ( Short Version )",
+      "This is the video for the short version of \"Pulsations-001\""
     ],
     [
-      "54656776",
-      "Gas Mask Ritual",
-      "A sanctuary of sorts… Three gasmasks await… A man enters. The ritual begins..."
+      "72580966",
+      "dronix-1 - 130818 - dronoisium",
+      "A sunset somewhere in France in the summer 2013."
+    ],
+    [
+      "249242822",
+      "Neon-obsession [ HYPER-TRIP ] ParasitE",
+      "A fixation in the toilets of a fastfood ..."
+    ],
+    [
+      "106201788",
+      "Etrange Créature",
+      "Encounter with a strange creature in the nature ..."
+    ],
+    [
+      "91916863",
+      "dronoisium-exploration-1404",
+      "An exploration of a wasteland"
+    ],
+    [
+      "119576754",
+      "DRONIX-1-130623",
+      "A sonic exploration by ONE 0000 0001 when his pseudo was still robomatix rebirth"
     ]
   ],
   "sectionVideoPlayerColor": "000000",
@@ -80,15 +118,15 @@
       "https://vimeo.com/search?q=fetishground"
     ]
   ],
-  "sectionShareTitle" : "Love it ? Hate it ? Share it !",
-  "textShareLinkFacebook" : "Share on Facebook",
-  "imageShareLinkTwitter" : "images/fleshware-latex-s10-fip-1024-512.jpg",
-  "textShareLinkTwitter" : "Share on Twitter",
-  "viaShareLinkTwitter" : "00000001One",
+  "sectionShareTitle": "Love it ? Hate it ? Share it !",
+  "textShareLinkFacebook": "Share on Facebook",
+  "imageShareLinkTwitter": "images/fleshware-latex-s10-fip-1024-512.jpg",
+  "textShareLinkTwitter": "Share on Twitter",
+  "viaShareLinkTwitter": "00000001One",
   "footerSentence": "Proudly made by ",
   "footerUrl": "http://00000001.one",
   "footerUrlTitle": "ONE 0000 0001",
-  "cookieAlertText" : "Cookies are used on this website to ensure you get the best experience.",
-  "cookieAlertLearnMore" : "Learn more.",
-  "cookieAlertAgree" : "I agree"
+  "cookieAlertText": "Cookies are used on this website to ensure you get the best experience.",
+  "cookieAlertLearnMore": "Learn more.",
+  "cookieAlertAgree": "I agree"
 }
