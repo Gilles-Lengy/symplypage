@@ -112,20 +112,32 @@
   "sectionOnTheInternetTitle": "More on the web",
   "sectionOnTheInternetData": [
     [
+      "tumblr",
+      "https://one00000001.tumblr.com/"
+    ],
+    [
+      "facebook",
+      "https://www.facebook.com/One-Human-Factor-344437749479668/"
+    ],
+    [
       "twitter",
-      "https://twitter.com/dronoisium"
+      "https://twitter.com/OneHumanFactor"
     ],
     [
       "youtube",
-      "https://www.youtube.com/channel/UCGH0aP5Q00gYk9HZc_X65Yg"
+      "https://www.youtube.com/channel/UCignBaZGcxy_Jh7gYE6ZowA"
     ],
     [
       "vimeo",
-      "https://vimeo.com/showcase/1697988"
+      "https://vimeo.com/showcase/6863855"
+    ],
+    [
+      "soundcloud",
+      "https://soundcloud.com/onehumanfactor/sets"
     ],
     [
       "bandcamp",
-      "https://dronoisium.bandcamp.com/"
+      "https://onehumanfactor.bandcamp.com/"
     ]
   ],
   "sectionShareTitle": "Love it ? Hate it ? Share it !",
