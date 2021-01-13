@@ -180,6 +180,10 @@ footer {
     background-color: #333333;
 }
 
+#on-the-internet li{
+    margin-bottom: 1.25rem;
+}
+
 #share li a.btn-default {
     display: inline-block;
     margin-top: .75rem;
