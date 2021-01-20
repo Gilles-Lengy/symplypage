@@ -1,13 +1,16 @@
 {
-  "urlWebSite": "https://dronoisium.xyz/",
-  "headTitle": "DRONOISIUM OFFICIAL WEBSITE",
-  "headDescription": "DRONOISIUM is a drone music project by ONE 0000 0001",
-  "pageTitle": "DRONOISIUM",
-  "pageHeaderImageURL": "images/dronoisium-190430-hnw-016.jpg",
-  "pageHeaderImageAlt": "HNW Machine",
-  "sectionTextTitle": "About DRONOISIUM",
+  "urlWebSite": "https://01010101.one/",
+  "headTitle": "ONE HUMAN FACTOR OFFICIAL WEBSITE",
+  "headDescription": "ONE HUMAN FACTOR is a Battery-Powered Noisy Electro Music project by ONE 0000 0001",
+  "pageTitle": "ONE HUMAN FACTOR",
+  "pageHeaderImageURL": "images/ohf-roc-gam-2k19-1221-by-laurent-t-04-1500.jpg",
+  "pageHeaderImageAlt": "ONE HUMAN FACTOR live in 2019",
+  "sectionTextTitle": "About ONE HUMAN FACTOR",
   "sectionTextP": [
-    "I started this project \"Dronoisium\" in 2011. I intend to explore several kind of electronic drone with machines, from Etheral Atmospheric Ambient Drone to Harsh Noise Wall. I released the fisrt album of dronoisium \" L'énergie du soleil noir \" in May 2013. I described it as Dark Symphonic Drone from the Black Sun. Since, several tracks were released on their own or as a part of an album. They were made using differents electronic devices, analogic and digital."
+    "Into the brotherhood of talented and disabled geniuses (Stevie Wonder, Stephen Hawking, Gilbert Montagné, Michel Petrucciani – uncheck as appropriate), please welcome One and his brand of noisy battery-powered electro. Unable to carry anything too heavy, One has turned his physical weakness into a musical strength by equipping himself with small lightweight machines that run on batteries.",
+    "In August 1996, One released a demo and played a couple of gigs in Vienna, Austria. Then… nothing else happened until the « Alpha Noise Fetishism » EP emerged in 2018. One’s influences – not always perceptible, but definitely present – are : Laibach, Kraftwerk, early Ministry, and Yasuhito Fujinami.",
+    "I'm the ONE ! The only ONE.",
+    "ONE Has Machines... ONE Loves Machines... ONE Adores Machines... ONE Needs Machines... ONE Uses Machines... ONE is a human factor... So ONE become ONE HUMAN FACTOR !!!!"
   ],
   "sectionTextSignature": "ONE 0000 0001",
   "sectionTextSignatureURL": "http://00000001.one",
@@ -39,93 +42,147 @@
       "sectionShareTitle"
     ]
   ],
-  "sectionVideoTitle": "Some videos of DRONOISIUM",
+  "sectionVideoTitle": "Videos",
   "sectionVideoData": [
     [
-      "492851623",
-      "HNW / Official Version",
-      "The official version of the video of the Dronoisium track \"HNW\""
+      "258377366",
+      "Total enclosure T.M.I"
     ],
     [
-      "369896748",
-      "Pulsations-001 ( Short Version )",
-      "This is the video for the short version of \"Pulsations-001\""
+      "256272740",
+      "Blue sky latex"
     ],
     [
-      "72580966",
-      "dronix-1 - 130818 - dronoisium",
-      "A sunset somewhere in France during the summer 2013."
+      "256279743",
+      "Orifices"
     ],
     [
-      "249242822",
-      "Neon-obsession [ HYPER-TRIP ] ParasitE",
-      "A fixation in the toilets of a fastfood ..."
+      "259898358",
+      "Sexy lubrification"
     ],
     [
-      "106201788",
-      "Etrange Créature",
-      "Encounter with a strange creature in the nature ..."
+      "260548241",
+      "Gas masks extravaganza"
     ],
     [
-      "91916863",
-      "dronoisium-exploration-1404",
-      "An exploration of a wasteland"
+      "261637473",
+      "Alone in an abandoned place"
     ],
     [
-      "119576754",
-      "DRONIX-1-130623",
-      "A sonic exploration by ONE 0000 0001 when his pseudo was still robomatix rebirth"
+      "386555560",
+      "GAM2K19 LIVE / Dec. 21 2019"
+    ],
+    [
+      "496369652",
+      "Chaotic Auto-Erotism RAW Recording"
     ]
   ],
-  "sectionPhotoTitle": "Some photos of DRONOISUM",
+  "sectionPhotoTitle": "Photos",
   "sectionPhotoData": [
     [
-      "images/dronoisium-hnw-190527-001.jpg",
-      "HNW 05/27/2019",
+      "images/one-wien96-210113-1-1500.jpg",
+      "Live @ The Chelsea, Austria on the 08/13/1996",
+      "Extracted from the video of the performance filmed by Alain Léonard"
+    ],
+    [
+      "images/one-wien96-live-181012-1500.jpg",
+      "Live @ The Chelsea, Austria on the 08/13/1996",
+      "Extracted from the video of the performance filmed by Alain Léonard"
+    ],
+    [
+      "images/ohf-181208-horloge-tracy-by-laurent-t-002.jpg",
+      "Live @ L'Horloge of Tracy, France on the 12/08/2018",
+      "Credit : Laurent-T"
+    ],
+    [
+      "images/ohf-181208-horloge-tracy-by-zelda-m-002.jpg",
+      "Live @ L'Horloge of Tracy, France on the 12/08/2018",
+      "Credit : Zelda"
+    ],
+    [
+      "images/one-human-factor-novation-camera-v-191128.jpg",
+      "With the Novation Circuit",
       "Credit : ONE 0000 0001"
     ],
     [
-      "images/dronoisium-hnw-190527-002.jpg",
-      "HNW 05/27/2019",
-      "Credit : ONE 0000 0001"
+      "images/ohf-roc-gam-2k19-1221-by-laurent-t-01-1500.jpg",
+      "Checksound @ GAM of Creil, France on the 12/21/2019",
+      "Credit : Laurent-T"
     ],
     [
-      "images/dronoisium-190607-hnw-1-69-006.jpg",
-      "HNW 06/07/2019",
-      "Credit : ONE 0000 0001"
+      "images/ohf-roc-gam-2k19-1221-by-laurent-t-02-1500.jpg",
+      "Checksound @ GAM of Creil, France on the 12/21/2019",
+      "Credit : Laurent-T"
+    ],
+    [
+      "images/ohf-roc-gam-2k19-1221-by-laurent-t-03-1500.jpg",
+      "Checksound @ GAM of Creil, France on the 12/21/2019",
+      "Credit : Laurent-T"
+    ],
+    [
+      "images/ohf-roc-gam-2k19-1221-by-laurent-t-04-1500.jpg",
+      "Live @ GAM of Creil, France on the 12/21/2019",
+      "Credit : Laurent-T"
+    ],
+    [
+      "images/ohf-roc-gam-2k19-1221-by-laurent-t-05-1500.jpg",
+      "Live @ GAM of Creil, France on the 12/21/2019",
+      "Credit : Laurent-T"
+    ],
+    [
+      "images/ohf-roc-gam-2k19-1221-by-laurent-t-06-1500.jpg",
+      "Live @ GAM of Creil, France on the 12/21/2019",
+      "Credit : Laurent-T"
+    ],
+    [
+      "images/ohf-roc-gam-2k19-1221-by-laurent-t-07-1500.jpg",
+      "After performing @ GAM of Creil, France on the 12/21/2019",
+      "Credit : Laurent-T"
     ]
   ],
   "sectionVideoPlayerColor": "000000",
-  "sectionBandcampAlbumTitle": "Latest Album",
-  "sectionBandcampAlbumID": "2571032453",
+  "sectionBandcampAlbumTitle": "DEBUT EP",
+  "sectionBandcampAlbumID": "284157788",
   "sectionBandcampAlbumSize": "large",
   "sectionBandcampAlbumBGColor": "000000",
   "sectionBandcampAlbumLinkCol": "ffffff",
-  "sectionBandcampAlbumHeight": "868",
-  "sectionBandcampAlbumUrl": "https://dronoisium.bandcamp.com/album/hnw",
-  "sectionBandcampAlbumTitleTitle": "HNW",
+  "sectionBandcampAlbumHeight": "999",
+  "sectionBandcampAlbumUrl": "https://onehumanfactor.bandcamp.com/album/alpha-noise-fetishism",
+  "sectionBandcampAlbumTitleTitle": "Alpha Noise Fetishism",
   "sectionOnTheInternetTitle": "More on the web",
   "sectionOnTheInternetData": [
     [
+      "tumblr",
+      "https://one00000001.tumblr.com/"
+    ],
+    [
+      "facebook",
+      "https://www.facebook.com/One-Human-Factor-344437749479668/"
+    ],
+    [
       "twitter",
-      "https://twitter.com/dronoisium"
+      "https://twitter.com/OneHumanFactor"
     ],
     [
       "youtube",
-      "https://www.youtube.com/channel/UCGH0aP5Q00gYk9HZc_X65Yg"
+      "https://www.youtube.com/channel/UCignBaZGcxy_Jh7gYE6ZowA"
     ],
     [
       "vimeo",
-      "https://vimeo.com/showcase/1697988"
+      "https://vimeo.com/showcase/6863855"
+    ],
+    [
+      "soundcloud",
+      "https://soundcloud.com/onehumanfactor/sets"
     ],
     [
       "bandcamp",
-      "https://dronoisium.bandcamp.com/"
+      "https://onehumanfactor.bandcamp.com/"
     ]
   ],
   "sectionShareTitle": "Love it ? Hate it ? Share it !",
   "textShareLinkFacebook": "Share on Facebook",
-  "imageShareLinkTwitter": "images/dronoisium-190430-hnw-016-1024-512.jpg",
+  "imageShareLinkTwitter": "images/ohf-roc-gam-2k19-1221-by-laurent-t-04-1500-1024-512.jpg",
   "textShareLinkTwitter": "Share on Twitter",
   "viaShareLinkTwitter": "00000001One",
   "footerSentence": "Proudly made by ",

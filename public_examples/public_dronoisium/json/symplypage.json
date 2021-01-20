@@ -23,6 +23,10 @@
       "sectionVideoTitle"
     ],
     [
+      "photo",
+      "sectionPhotoTitle"
+    ],
+    [
       "bandcamp-album",
       "sectionBandcampAlbumTitle"
     ],
@@ -71,6 +75,24 @@
       "119576754",
       "DRONIX-1-130623",
       "A sonic exploration by ONE 0000 0001 when his pseudo was still robomatix rebirth"
+    ]
+  ],
+  "sectionPhotoTitle": "Some photos of DRONOISUM",
+  "sectionPhotoData": [
+    [
+      "images/dronoisium-hnw-190527-001.jpg",
+      "HNW 05/27/2019",
+      "Credit : ONE 0000 0001"
+    ],
+    [
+      "images/dronoisium-hnw-190527-002.jpg",
+      "HNW 05/27/2019",
+      "Credit : ONE 0000 0001"
+    ],
+    [
+      "images/dronoisium-190607-hnw-1-69-006.jpg",
+      "HNW 06/07/2019",
+      "Credit : ONE 0000 0001"
     ]
   ],
   "sectionVideoPlayerColor": "000000",
