@@ -15,7 +15,7 @@
   "sectionTextSignature": "ONE 0000 0001",
   "sectionTextSignatureURL": "http://00000001.one",
   "modalMenuTitle": "Menu",
-  "textLinkGoTop": "Go To the Top of this page",
+  "textLinkGoTop": "Go To the Top",
   "sectionOrder": [
     [
       "text",
@@ -188,7 +188,7 @@
   "textShareLinkFacebook": "Share on Facebook",
   "imageShareLinkTwitter": "images/one-000-avatar-1024-512.jpg",
   "textShareLinkTwitter": "Share on Twitter",
-  "viaShareLinkTwitter": "00000001One",
+  "viaShareLinkTwitter": "onehumanfactor",
   "footerSentence": "Proudly made by ",
   "footerUrl": "https://00000001.one",
   "footerUrlTitle": "ONE 0000 0001",
