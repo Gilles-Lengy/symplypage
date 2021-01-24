@@ -22,12 +22,16 @@
       "sectionTextTitle"
     ],
     [
+      "photo",
+      "sectionPhotoTitle"
+    ],
+    [
       "video",
       "sectionVideoTitle"
     ],
     [
-      "photo",
-      "sectionPhotoTitle"
+      "bandcamp-track",
+      "sectionBandcampTrackTitle"
     ],
     [
       "bandcamp-album",
@@ -80,7 +84,8 @@
       "261637473",
       "Alone in an abandoned place"
     ]
-  ],
+  ]  ,
+  "sectionVideoPlayerColor": "000000",
   "sectionPhotoTitle": "Photos",
   "sectionPhotoData": [
     [
@@ -143,16 +148,15 @@
       "After performing @ GAM of Creil, France on the 12/21/2019",
       "Credit : Laurent-T"
     ]
-  ],,
-  "sectionVideoPlayerColor": "000000",
+  ],
   "sectionBandcampTrackTitle": "Latest single",
   "sectionBandcampTrackID": "1765231862",
   "sectionBandcampTrackSize": "large",
   "sectionBandcampTrackBGColor": "000000",
   "sectionBandcampTrackLinkCol": "ffffff",
-  "sectionBandcampTrackHeight": "999",
+  "sectionBandcampTrackHeight": "700",
   "sectionBandcampTrackUrl": "https://onehumanfactor.bandcamp.com/track/0000",
-  "sectionBandcampTrackTitleTitle": "0000",
+  "sectionBandcampTrackBy": "0000 by ONE HUMAN FACTOR",
   "sectionBandcampAlbumTitle": "DEBUT EP",
   "sectionBandcampAlbumID": "284157788",
   "sectionBandcampAlbumSize": "large",

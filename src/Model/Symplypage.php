@@ -27,6 +27,14 @@ class Symplypage
     private $sectionPhotoData;
     private $sectionCardTitle;
     private $sectionCardData;
+    private $sectionBandcampTrackTitle;
+    private $sectionBandcampTrackUrl;
+    private $sectionBandcampTrackBy;
+    private $sectionBandcampTrackID;
+    private $sectionBandcampTrackSize;
+    private $sectionBandcampTrackBGColor;
+    private $sectionBandcampTrackLinkCol;
+    private $sectionBandcampTrackHeight;
     private $sectionBandcampAlbumTitle;
     private $sectionBandcampAlbumUrl;
     private $sectionBandcampAlbumTitleTitle;
@@ -390,7 +398,135 @@ class Symplypage
         $this->sectionCardData = $sectionCardData;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampTrackTitle()
+    {
+        return $this->sectionBandcampTrackTitle;
+    }
 
+    /**
+     * @param mixed $sectionBandcampTrackTitle
+     */
+    public function setSectionBandcampTrackTitle($sectionBandcampTrackTitle): void
+    {
+        $this->sectionBandcampTrackTitle = $sectionBandcampTrackTitle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampTrackUrl()
+    {
+        return $this->sectionBandcampTrackUrl;
+    }
+
+    /**
+     * @param mixed $sectionBandcampTrackUrl
+     */
+    public function setSectionBandcampTrackUrl($sectionBandcampTrackUrl): void
+    {
+        $this->sectionBandcampTrackUrl = $sectionBandcampTrackUrl;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampTrackBy()
+    {
+        return $this->sectionBandcampTrackBy;
+    }
+
+    /**
+     * @param mixed $sectionBandcampTrackBy
+     */
+    public function setSectionBandcampTrackBy($sectionBandcampTrackBy): void
+    {
+        $this->sectionBandcampTrackBy = $sectionBandcampTrackBy;
+    }
+
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampTrackID()
+    {
+        return $this->sectionBandcampTrackID;
+    }
+
+    /**
+     * @param mixed $sectionBandcampTrackID
+     */
+    public function setSectionBandcampTrackID($sectionBandcampTrackID): void
+    {
+        $this->sectionBandcampTrackID = $sectionBandcampTrackID;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampTrackSize()
+    {
+        return $this->sectionBandcampTrackSize;
+    }
+
+    /**
+     * @param mixed $sectionBandcampTrackSize
+     */
+    public function setSectionBandcampTrackSize($sectionBandcampTrackSize): void
+    {
+        $this->sectionBandcampTrackSize = $sectionBandcampTrackSize;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampTrackBGColor()
+    {
+        return $this->sectionBandcampTrackBGColor;
+    }
+
+    /**
+     * @param mixed $sectionBandcampTrackBGColor
+     */
+    public function setSectionBandcampTrackBGColor($sectionBandcampTrackBGColor): void
+    {
+        $this->sectionBandcampTrackBGColor = $sectionBandcampTrackBGColor;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampTrackLinkCol()
+    {
+        return $this->sectionBandcampTrackLinkCol;
+    }
+
+    /**
+     * @param mixed $sectionBandcampTrackLinkCol
+     */
+    public function setSectionBandcampTrackLinkCol($sectionBandcampTrackLinkCol): void
+    {
+        $this->sectionBandcampTrackLinkCol = $sectionBandcampTrackLinkCol;
+    }
+
+
+    /**
+     * @return mixed
+     */
+    public function getSectionBandcampTrackHeight()
+    {
+        return $this->sectionBandcampTrackHeight;
+    }
+
+    /**
+     * @param mixed $sectionBandcampTrackHeight
+     */
+    public function setSectionBandcampTrackHeight($sectionBandcampTrackHeight): void
+    {
+        $this->sectionBandcampTrackHeight = $sectionBandcampTrackHeight;
+    }
 
 
     /**

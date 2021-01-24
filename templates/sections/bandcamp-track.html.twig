@@ -1,0 +1,20 @@
+<section id="bandcamp-track" class="container">
+    <div class="row">
+        <div class="col-12">
+            <h3>{{ symplyPage.sectionBandcampTrackTitle }}</h3>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-7 col-sm-12">
+            <div id="bandcamp-track-player-container">
+                <iframe style="border: 0; width: 100%; height: {{ symplyPage.sectionBandcampTrackHeight }}px;"
+                        src="https://bandcamp.com/EmbeddedPlayer/track={{ symplyPage.sectionBandcampTrackID }}/size={{ symplyPage.sectionBandcampTrackSize }}//bgcol={{ symplyPage.sectionBandcampTrackBGColor }}/linkcol={{ symplyPage.sectionBandcampTrackLinkCol }}/tracklist=false/transparent=true/"
+                        seamless
+                        style="border: 0; height: {{ symplyPage.sectionBandcampTrackHeight }}px; width: 100%;">
+                >
+                    <a href="{{ symplyPage.sectionBandcampTrackUrl }}">{{ symplyPage.sectionBandcampTrackBy }}</a>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>

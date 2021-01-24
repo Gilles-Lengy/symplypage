@@ -138,6 +138,7 @@ header img {
 #video,
 #photo,
 #card,
+#bandcamp-track,
 #bandcamp-album,
 #on-the-internet,
 #share,
@@ -175,6 +176,7 @@ footer {
     border-top-right-radius: 0;
 }
 
+#bandcamp-track #bandcamp-track-player-container,
 #bandcamp-album #bandcamp-album-player-container {
     border: 4px solid var(--main-light-color);
     background-color: #333333;
@@ -202,6 +204,7 @@ footer {
 }
 
 #video h3,
+#bandcamp-track h3,
 #bandcamp-album h3,
 #card h3,
 #photo h3,
