@@ -241,7 +241,7 @@
         "version": "v5.0.8"
     },
     "twig/extra-bundle": {
-        "version": "v3.0.3"
+        "version": "v3.2.1"
     },
     "twig/twig": {
         "version": "v3.0.3"
